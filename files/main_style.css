@@ -11,6 +11,7 @@
  a.alt:visited { color: #666666; }
  a.alt:hover { color: #999999; }
  a.alt:active { color: #FFFFFF; }
+ a.padded { padding-top: 10px; padding-right: 10px; padding-bottom: 30px; padding-left: 10px; }
  div.paragraph { line-height: 1.5; color: #a3a2a2; font-size: 13px; padding: .5em 0; }
  p { line-height: 1.5; color: #a3a2a2; font-size: 13px; padding: .5em 0; }
  h1 { font-family: LucidaSans, arial; font-size: 40px; color: #fff; line-height: 1.5; padding: 5px 0 5px 0; }

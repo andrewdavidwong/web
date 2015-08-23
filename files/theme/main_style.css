@@ -62,6 +62,13 @@ a.alt:active {
 	color: #FFFFFF;
 }
 
+ a.padded {
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+}
+
 p {
 	line-height: 1.5;
 	color: #a3a2a2;
@@ -239,20 +246,6 @@ blockquote {
 	padding: 0;
 }
 
-/* TOP RIGHT: Phone Number
---------------------------------------------------------------------------------*/
-
-#header-right .phone-number .wsite-text {
-	clear: right;
-	float: right;
-	color: #a3a2a2;
-	font-size: 14px;
-	font-weight: bold;
-	white-space: nowrap;
-	display: block;
-	margin: 5px 0 5px 15px;
-}
-
 /* TOP RIGHT: Content Area
 --------------------------------------------------------------------------------*/
 
@@ -301,90 +294,6 @@ blockquote {
 .wsite-social-youtube {background-position:-250px 0;}
 	.wsite-social-youtube:hover {background-position:-250px -25px;}
 	.wsite-social-youtube:active {background-position:-250px -50px;}
-
-
-/* TOP RIGHT: Search Box
---------------------------------------------------------------------------------*/
-
-#header-right .wsite-search {
-	margin: 5px 0 5px 15px;
-	vertical-align: middle;
-}
-
-#header-right .wsite-search .wsite-search-input {
-	width: 125px;
-	height: 23px;
-	border: none;
-	color: #D3D3D3;
-	font-size: 12px;
-	padding: 5px 10px 3px 10px;
-	background: url(input-bg.png) no-repeat;
-}
-
-#header-right .wsite-search-button {
-	width: 67px;
-	height: 31px;
-	border: none;
-	padding: 0;
-	background: url(submit-bg.png) no-repeat;
-}
-
-#header-right .wsite-search-button span {
-	background: none;
-}
-
-/* Footer
---------------------------------------------------------------------------------*/
-
-#footer {
-	visibility:hidden;
-	width: 930px;
-	color: #616060;
-	font-size: 12px;
-	padding: 15px 35px;
-	margin: 0 0 20px 0;
-	text-align: right;
-	background: url(footer-bg.jpg);
-}
-.wsite-footer {  /* make sure enough space between element footer and attribution */
-	margin-bottom: 15px;
-}
-
-#footer h2 {
-	font-size:18px;
-	border-bottom:1px solid #999;
-}
-
-/* Footer Form Customization
---------------------------------------------------------------------------------*/
-
-.wsite-form-container {
-	margin-top:0px !important;
-	text-align:left !important;
-}
-
-.wsite-footer .wsite-form-label {
-	font-size: 1em !important;
-	padding: 5px 0 2px 0 !important;
-}
-
-.wsite-footer .wsite-form-field {
-	width:300px !important;
-}
-
-.wsite-footer .form-radio-container {
-	font-size:1em !important;
-}
-
-.wsite-footer .wsite-form-input {
-	font-size: 1em !important;
-	width: 100% !important;
-}
-
-.wsite-footer .form-select {
-	width: 100% !important;
-}
-
 
 /* PAGE TYPE: tall-header
 --------------------------------------------------------------------------------*/
