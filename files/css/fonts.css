@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'Cardo';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/Cardo-regular/Cardo-regular.eot');
+  src: url('../fonts/Cardo-regular/Cardo-regular.eot?#iefix') format('embedded-opentype'),
+       local('Cardo'),
+       local('Cardo-regular'),
+       url('../fonts/Cardo-regular/Cardo-regular.woff2') format('woff2'),
+       url('../fonts/Cardo-regular/Cardo-regular.woff') format('woff'),
+       url('../fonts/Cardo-regular/Cardo-regular.ttf') format('truetype'),
+       url('../fonts/Cardo-regular/Cardo-regular.svg#Cardo') format('svg');
+}
+
+@font-face {
+  font-family: 'Cantarell';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/Cantarell-regular/Cantarell-regular.eot');
+  src: url('../fonts/Cantarell-regular/Cantarell-regular.eot?#iefix') format('embedded-opentype'),
+       local('Cantarell Regular'),
+       local('Cantarell-regular'),
+       url('../fonts/Cantarell-regular/Cantarell-regular.woff2') format('woff2'),
+       url('../fonts/Cantarell-regular/Cantarell-regular.woff') format('woff'),
+       url('../fonts/Cantarell-regular/Cantarell-regular.ttf') format('truetype'),
+       url('../fonts/Cantarell-regular/Cantarell-regular.svg#Cantarell') format('svg');
+}
+
+@font-face {
+  font-family: 'Crimson Text';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/Crimson-Text-regular/Crimson-Text-regular.eot');
+  src: url('../fonts/Crimson-Text-regular/Crimson-Text-regular.eot?#iefix') format('embedded-opentype'),
+       local('Crimson Text'),
+       local('Crimson-Text-regular'),
+       url('../fonts/Crimson-Text-regular/Crimson-Text-regular.woff2') format('woff2'),
+       url('../fonts/Crimson-Text-regular/Crimson-Text-regular.woff') format('woff'),
+       url('../fonts/Crimson-Text-regular/Crimson-Text-regular.ttf') format('truetype'),
+       url('../fonts/Crimson-Text-regular/Crimson-Text-regular.svg#CrimsonText') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/Source-Sans-Pro-regular/Source-Sans-Pro-regular.eot');
+  src: url('../fonts/Source-Sans-Pro-regular/Source-Sans-Pro-regular.eot?#iefix') format('embedded-opentype'),
+       local('Source Sans Pro'),
+       local('Source-Sans-Pro-regular'),
+       url('../fonts/Source-Sans-Pro-regular/Source-Sans-Pro-regular.woff2') format('woff2'),
+       url('../fonts/Source-Sans-Pro-regular/Source-Sans-Pro-regular.woff') format('woff'),
+       url('../fonts/Source-Sans-Pro-regular/Source-Sans-Pro-regular.ttf') format('truetype'),
+       url('../fonts/Source-Sans-Pro-regular/Source-Sans-Pro-regular.svg#SourceSansPro') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../fonts/Source-Sans-Pro-700/Source-Sans-Pro-700.eot');
+  src: url('../fonts/Source-Sans-Pro-700/Source-Sans-Pro-700.eot?#iefix') format('embedded-opentype'),
+       local('Source Sans Pro Bold'),
+       local('Source-Sans-Pro-700'),
+       url('../fonts/Source-Sans-Pro-700/Source-Sans-Pro-700.woff2') format('woff2'),
+       url('../fonts/Source-Sans-Pro-700/Source-Sans-Pro-700.woff') format('woff'),
+       url('../fonts/Source-Sans-Pro-700/Source-Sans-Pro-700.ttf') format('truetype'),
+       url('../fonts/Source-Sans-Pro-700/Source-Sans-Pro-700.svg#SourceSansPro') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-style: italic;
+  src: url('../fonts/Source-Sans-Pro-italic/Source-Sans-Pro-italic.eot');
+  src: url('../fonts/Source-Sans-Pro-italic/Source-Sans-Pro-italic.eot?#iefix') format('embedded-opentype'),
+       local('Source Sans Pro Italic'),
+       local('Source-Sans-Pro-italic'),
+       url('../fonts/Source-Sans-Pro-italic/Source-Sans-Pro-italic.woff2') format('woff2'),
+       url('../fonts/Source-Sans-Pro-italic/Source-Sans-Pro-italic.woff') format('woff'),
+       url('../fonts/Source-Sans-Pro-italic/Source-Sans-Pro-italic.ttf') format('truetype'),
+       url('../fonts/Source-Sans-Pro-italic/Source-Sans-Pro-italic.svg#SourceSansPro') format('svg');
+}
