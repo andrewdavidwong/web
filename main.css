@@ -810,6 +810,8 @@ ul,
 ol,
 form {
   margin-bottom: 2.5rem; }
+nav {
+  margin-bottom: 5rem; }
 hr {
   margin-top: 3rem;
   margin-bottom: 2.5rem;
@@ -833,9 +835,6 @@ hr {
 
 /* Icons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.icon-inline {
-  padding-right: 1rem; }
 
 .icon-footer {
   font-size: 2.7rem;
