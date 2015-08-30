@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-
-  <!-- Basic Page Needs -->
-
   <meta charset="utf-8">
   <title>Andrew David Wong</title>
   <meta name="description"
@@ -16,24 +14,15 @@
                  pyrrhonian,pyrrhonean,sextus,empiricus,san diego,ucsd,
                  uc san diego,california,washu,wustl,wash u,washington,
                  university,st. louis">
-
-  <!-- Mobile Specific Metas -->
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- CSS -->
-
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-
-  <!-- Favicon -->
-
+  <link rel="stylesheet" type="text/css" href="main.css">
   <link rel="icon" type="image/x-icon" sizes="16x16 24x24 32x32 64x64"
         href="favicon.ico">
-
 </head>
+
 <body>
 
-  <!-- Navigation Bar Scripts -->
+  <!-- Navigation Bar -->
 
   <a href="/"><h1>Andrew David Wong</h1></a>
   <nav class="clearfix">
@@ -47,13 +36,13 @@
     <a id="logo" href="/">Andrew David Wong</a><a id="pull"></a>
   </nav>
 
-  <!-- Primary Page Layout -->
+  <!-- Main Content -->
 
   <div class="container" style="margin-top: 5rem">
     <div class="row">
       <div class="offset-by-two four columns">
-          <img class="u-photo u-max-full-width" src="adw.jpg"
-               alt="Andrew David Wong">
+        <img class="u-photo u-max-full-width" src="adw.jpg"
+             alt="Andrew David Wong">
       </div>
       <div class="four columns">
         <h4>Welcome</h4>
@@ -69,47 +58,49 @@
            and scope of <a href="research/">Pyrrhonian Skepticism</a>.</p>
       </div>
     </div>
+  </div>
 
-    <!-- Footer -->
+  <!-- Footer -->
 
-    <hr>
+  <div id="footer" class="container">
     <div class="row">
-      <div class="u-full-width" style="text-align: center">
+      <div class="u-full-width">
+        <hr>
         <a title="Facebook"
            href="https://www.facebook.com/profile.php?id=100009496414838"
-           class="icon-footer fa fa-facebook fa-2x" target="_blank"></a>
+           class="icon-footer icon-facebook" target="_blank"></a>
         <a title="Twitter" href="https://twitter.com/andrewdavidwong"
-           class="icon-footer fa fa-twitter fa-2x" target="_blank"></a>
+           class="icon-footer icon-twitter" target="_blank"></a>
         <a title="Google+" href="https://plus.google.com/+andrewdavidwong"
-           class="icon-footer fa fa-google-plus fa-2x" target="_blank"></a>
+           class="icon-footer icon-gplus" target="_blank"></a>
         <a title="LinkedIn" href="https://www.linkedin.com/in/andrewdwong"
-           class="icon-footer fa fa-linkedin fa-2x" target="_blank"></a>
+           class="icon-footer icon-linkedin" target="_blank"></a>
         <a title="Academia.edu" href="https://ucsd.academia.edu/wong"
-           class="icon-footer fa fa-font fa-2x" target="_blank"></a>
+           class="icon-footer icon-font" target="_blank"></a>
         <a title="GitHub" href="https://github.com/andrewdavidwong"
-           class="icon-footer fa fa-github fa-2x" target="_blank"></a>
+           class="icon-footer icon-github-circled" target="_blank"></a>
         <a title="Bitbucket" href="https://bitbucket.org/andrewdavidwong"
-           class="icon-footer fa fa-bitbucket fa-2x" target="_blank"></a>
+           class="icon-footer icon-bitbucket" target="_blank"></a>
         <a title="Coinbase" href="https://www.coinbase.com/adw"
-           class="icon-footer fa fa-btc fa-2x" target="_blank"></a>
+           class="icon-footer icon-bitcoin" target="_blank"></a>
         <a title="Keybase" href="https://keybase.io/adw"
-           class="icon-footer fa fa-key fa-2x" target="_blank"></a>
-        <br>
-        <span class="plain">Copyright &#169; 2012&#8211;<script
+           class="icon-footer icon-key" target="_blank"></a>
+        <div id="copyright">Copyright &#169; 2012&#8211;<script
           type="text/javascript">
             var today = new Date()
             var year = today.getFullYear()
-            document.write(year)
-          </script><noscript>2015</noscript>
-        Andrew David Wong. All rights reserved.</span>
+            document.write(year)</script>
+          <noscript>2015</noscript>
+          Andrew David Wong. All rights reserved.
+        </div>
       </div>
     </div>
   </div>
 
   <!-- Navigation Bar Scripts -->
 
-  <script src="assets/js/jquery.min.js"></script>
-  <script>
+  <script type="text/javascript" src="jquery.min.js"></script>
+  <script type="text/javascript">
     $(function() {
       var pull        = $('#pull');
           menu        = $('nav ul');
@@ -128,8 +119,6 @@
       });
     });
   </script>
-
-<!-- End Document -->
 
 </body>
 </html>
