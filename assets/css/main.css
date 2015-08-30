@@ -553,7 +553,7 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Source Sans Pro", Arial, sans-serif;
-  color: #CCC; }
+  color: #a3a2a2; }
 
 
 /* Fonts
@@ -633,11 +633,13 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1 { 
   font-family: "Cardo", Times, serif;
-  color: #CCC;
+  color: #CFCFCF;
   margin-top: 3rem;
   text-align: center; }
 h2, h3, h4, h5, h6 {
-  font-family: "Crimson Text", Times, serif; }
+  font-family: "Crimson Text", Times, serif;
+  color: #CFCFCF;
+  margin-bottom: 2rem; }
 h5, h6 {
   font-family: "Source Sans Pro", Arial, sans-serif;
   margin-top: 0;
@@ -921,7 +923,7 @@ nav li {
   *zoom: 1; }
 
 nav a {
-  color: #CCC;
+  color: #CFCFCF;
   display: inline-block;
   width: 110px;
   text-align: center;
