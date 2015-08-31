@@ -578,6 +578,20 @@ body {
 }
 
 @font-face {
+  font-family: 'Cantarell';
+  font-weight: 400;
+  font-style: normal;
+  src: url('fonts/Cantarell-regular/Cantarell-regular.eot');
+  src: url('fonts/Cantarell-regular/Cantarell-regular.eot?#iefix') format('embedded-opentype'),
+       local('Cantarell Regular'),
+       local('Cantarell-regular'),
+       url('fonts/Cantarell-regular/Cantarell-regular.woff2') format('woff2'),
+       url('fonts/Cantarell-regular/Cantarell-regular.woff') format('woff'),
+       url('fonts/Cantarell-regular/Cantarell-regular.ttf') format('truetype'),
+       url('fonts/Cantarell-regular/Cantarell-regular.svg#Cantarell') format('svg');
+}
+
+@font-face {
   font-family: 'Crimson Text';
   font-weight: 400;
   font-style: normal;
@@ -636,11 +650,11 @@ body {
 /* Font Awesome icons (subset) */
 @font-face {
   font-family: 'fa';
-  src: url('fonts/fa.eot?98374205');
-  src: url('fonts/fa.eot?98374205#iefix') format('embedded-opentype'),
-       url('fonts/fa.woff?98374205') format('woff'),
-       url('fonts/fa.ttf?98374205') format('truetype'),
-       url('fonts/fa.svg?98374205#fa') format('svg');
+  src: url('fonts/Font-Awesome/fa.eot?98374205');
+  src: url('fonts/Font-Awesome/fa.eot?98374205#iefix') format('embedded-opentype'),
+       url('fonts/Font-Awesome/fa.woff?98374205') format('woff'),
+       url('fonts/Font-Awesome/fa.ttf?98374205') format('truetype'),
+       url('fonts/Font-Awesome/fa.svg?98374205#fa') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -650,7 +664,7 @@ body {
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fa';
-    src: url('fonts/fa.svg?98374205#fa') format('svg');
+    src: url('fonts/Font-Awesome/fa.svg?98374205#fa') format('svg');
   }
 }
 */
