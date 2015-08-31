@@ -666,11 +666,11 @@ body {
 /* Font Awesome icons (subset) */
 @font-face {
   font-family: 'fa';
-  src: url('fonts/Font-Awesome/fa.eot?98374205');
-  src: url('fonts/Font-Awesome/fa.eot?98374205#iefix') format('embedded-opentype'),
-       url('fonts/Font-Awesome/fa.woff?98374205') format('woff'),
-       url('fonts/Font-Awesome/fa.ttf?98374205') format('truetype'),
-       url('fonts/Font-Awesome/fa.svg?98374205#fa') format('svg');
+  src: url('fonts/Font-Awesome/fa.eot');
+  src: url('fonts/Font-Awesome/fa.eot#iefix') format('embedded-opentype'),
+       url('fonts/Font-Awesome/fa.woff') format('woff'),
+       url('fonts/Font-Awesome/fa.ttf') format('truetype'),
+       url('fonts/Font-Awesome/fa.svg#fa') format('svg');
   font-weight: normal;
   font-style: normal;
 }
