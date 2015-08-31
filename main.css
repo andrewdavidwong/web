@@ -693,6 +693,13 @@ h6.serif {
   font-family: "Crimson Text", times, serif;
   color: #B8B8B8;
   margin-top: 5rem; }
+h1.short,
+h2.short,
+h3.short,
+h4.short,
+h5.short,
+h6.short {
+  margin-top: 2rem; }
 h1.sans-serif,
 h2.sans-serif,
 h3.sans-serif,
@@ -938,8 +945,7 @@ hr {
 .icon-menu:before { content: '\e810'; } /* '' */
 
 .icon-main {
-  font-size: 2.4rem;
-  margin-bottom: 0; }
+  font-size: 2.4rem; }
 .icon-footer {
   font-size: 3rem;
   color: #595959;
