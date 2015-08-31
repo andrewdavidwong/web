@@ -682,6 +682,7 @@ h1.logo {
   font-family: "Cardo", times, serif;
   color: #CCCCCC;
   margin-top: 3rem;
+  margin-bottom: 3rem;
   text-align: center; }
 h1.serif,
 h2.serif,
@@ -937,10 +938,10 @@ hr {
 .icon-menu:before { content: '\e810'; } /* '' */
 
 .icon-footer {
-  font-size: 2.7rem;
+  font-size: 3rem;
   color: #595959;
-  margin-left: 1rem;
-  margin-right: 0.7rem; }
+  margin-left: 1.2rem;
+  margin-right: 0.9rem; }
 
 .icon-footer:hover {
   color: #DEDEDE; }
@@ -958,8 +959,8 @@ hr {
   font-size: 12px;
   font-family: arial, sans-serif;
   color: #474747;
-  padding-top: 1rem;
-  padding-bottom: 3rem; }
+  margin-top: 2.5rem;
+  margin-bottom: 3rem; }
 
 
 /* Clearing
