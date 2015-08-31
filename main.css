@@ -1057,8 +1057,10 @@ nav a#logo:hover, nav a#logo:active, nav a#pull:hover, nav a#pull:active {
     width: 20%;
     float: left;
     position: relative; }
-  nav li a {
-    border-right: 1px solid #333333; }
+  nav li:first-child a {
+    border-left: 0; }
+  nav li:last-child a {
+    border-right: 0; }
   nav a {
     text-align: center;
     width: 100%; }
@@ -1078,9 +1080,6 @@ nav a#logo:hover, nav a#logo:active, nav a#pull:hover, nav a#pull:active {
     height: auto;
     border-bottom: 1px solid #333333;
     margin: 0; }
-  nav li:first-child a, nav li:last-child a {
-    border-left:0;
-    border-right:0; }
   nav a#logo {
     display: block;
     height: auto;
