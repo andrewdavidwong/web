@@ -554,7 +554,7 @@ body {
   background-image: URL("bg.jpg"); */
   background-position: top center;
   background-repeat: no-repeat;
-  font-size: 1.5rem; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: 1.6rem; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
   font-family: "Source Sans Pro", arial, sans-serif;
