@@ -839,8 +839,8 @@ hr {
 .icon-footer {
   font-size: 2.7rem;
   color: #666;
-  padding-left: 0.3rem;
-  padding-right: 0.3rem; }
+  padding-left: 1rem;
+  padding-right: 1rem; }
 
 .icon-footer:hover,
 .icon-footer:active {
@@ -1049,7 +1049,6 @@ nav a#logo:hover, nav a#logo:active, nav a#pull:hover, nav a#pull:active {
  
   display: inline-block;
   text-decoration: inherit;
-  width: 1em;
   /* opacity: .8; */
  
   /* For safety - reset parent styles, that can break glyph codes*/
