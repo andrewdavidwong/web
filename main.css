@@ -649,6 +649,20 @@ body {
        url('fonts/Source-Sans-Pro-italic/Source-Sans-Pro-italic.svg#SourceSansPro') format('svg');
 }
 
+@font-face {
+  font-family: 'GFS Neohellenic';
+  font-weight: 400;
+  font-style: normal;
+  src: url('fonts/GFS-Neohellenic-regular/GFS-Neohellenic-regular.eot');
+  src: url('fonts/GFS-Neohellenic-regular/GFS-Neohellenic-regular.eot?#iefix') format('embedded-opentype'),
+       local('GFS Neohellenic Regular'),
+       local('GFS-Neohellenic-regular'),
+       url('fonts/GFS-Neohellenic-regular/GFS-Neohellenic-regular.woff2') format('woff2'),
+       url('fonts/GFS-Neohellenic-regular/GFS-Neohellenic-regular.woff') format('woff'),
+       url('fonts/GFS-Neohellenic-regular/GFS-Neohellenic-regular.ttf') format('truetype'),
+       url('fonts/GFS-Neohellenic-regular/GFS-Neohellenic-regular.svg#GFSNeohellenic') format('svg');
+}
+
 /* Font Awesome icons (subset) */
 @font-face {
   font-family: 'fa';
