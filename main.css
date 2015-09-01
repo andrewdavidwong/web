@@ -550,15 +550,15 @@ html {
   font-feature-settings: "kern";
   font-kerning: normal; }
 body {
-  background-color: #000000; /* #030303;
-  background-image: URL("bg.jpg"); */
+  background-color: #030303;
+  background-image: URL("bg.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   font-size: 1.6rem; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
   font-family: "Source Sans Pro", arial, sans-serif;
-  color: #A3A3A3; }
+  color: #A3A3A3; } 
 .center {
   text-align: center; }
 
