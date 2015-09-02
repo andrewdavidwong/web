@@ -1046,7 +1046,7 @@ hr {
   margin-top: 3rem;
   margin-bottom: 2.5rem;
   border-width: 0;
-  border-top: 1px solid #c4c4c2/*#888a85/*#555753/*#333*/; }
+  border-top: 1px solid #C4C4C2/*#888a85/*#555753/*#333*/; }
 
 
 /* Utilities
@@ -1251,7 +1251,7 @@ nav a#logo:hover, nav a#logo:active, nav a#pull:hover, nav a#pull:active {
 }
 
 @media only screen and (max-width: 400px) {
-  h1 {
+  h1.logo {
     display: none; }
   nav {
     height: auto;
