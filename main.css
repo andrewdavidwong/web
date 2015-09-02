@@ -704,6 +704,7 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 62.5%; }
 body {
+  background-color: transparent;
 /*  background-color: #121516;
 /*  background-color: #2e3436; /* Oblivion */
 /*  background-color: #393f3f; /* Adwaita */
@@ -840,7 +841,6 @@ h1, h2, h3, h4, h5, h6 {
 h1.logo {
   display: inline-block;
   font-family: "Cardo", times, serif;
-/*  color: #d3d7cf/*#CCCCCC*/;
   padding-top: 3rem;
   margin-bottom: 3rem; }
 h1.serif,
@@ -850,7 +850,6 @@ h4.serif,
 h5.serif,
 h6.serif {
   font-family: "Crimson Text", times, serif;
-/*  color: #d3d7cf;/*#B8B8B8*/;
   margin-top: 5rem; }
 h1.short,
 h2.short,
@@ -890,11 +889,10 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #5B3C03;/*#F9CC71; /* Original */
-/*  color: rgb(225,225,153); */
+  color: #5B3C03;
   text-decoration: none; }
 a:hover, a:active {
-  color: #2e1e02/*#FCE6B8*/;
+  color: #2e1e02;
   text-decoration: underline; }
 a.plain {
   color: inherit;
@@ -1046,7 +1044,7 @@ hr {
   margin-top: 3rem;
   margin-bottom: 2.5rem;
   border-width: 0;
-  border-top: 1px solid #CCCCCC/*#888a85/*#555753/*#333*/; }
+  border-top: 1px solid #CCCCCC; }
 
 
 /* Utilities
@@ -1111,12 +1109,12 @@ hr {
   font-size: 2.4rem; }
 .icon-footer {
   font-size: 3rem;
-  color: #888a85/*#595959*/;
+  color: #888a85;
   margin-left: 1.2rem;
   margin-right: 0.9rem; }
 .icon-footer:hover,
 .icon-footer:active {
-  color: #000000/*#DEDEDE*/; }
+  color: #000000; }
 
 
 /* Copyright
@@ -1125,7 +1123,7 @@ hr {
 #copyright {
   font-size: 12px;
   font-family: arial, sans-serif;
-  color: #888a85/*#474747*/;
+  color: #888a85;
   margin-top: 2.5rem;
   margin-bottom: 5rem; }
 
@@ -1175,7 +1173,7 @@ nav {
   height: 40px;
   width: 100%;
   max-width: 960px;
-  background-color: #888a85/*rgba(0,0,0,0.1)*/;
+  background-color: #888a85;
   position: relative; }
 
 nav ul {
@@ -1200,7 +1198,7 @@ nav li {
   *zoom: 1; }
 
 nav a {
-  color: #FFFFFF/*#d3d7cf/*#CCCCCC*/;
+  color: #FFFFFF;
   display: inline-block;
   width: 110px;
   text-align: center;
@@ -1208,19 +1206,19 @@ nav a {
   line-height: 40px; }
 
 nav li a {
-  border-right: 1px solid #CCCCCC/*#555753/*#333333*/;
+  border-right: 1px solid #CCCCCC;
   box-sizing:border-box;
   -moz-box-sizing:border-box;
   -webkit-box-sizing:border-box; }
 
 nav li:first-child a {
-  border-left: 1px solid #CCCCCC/*#555753/*#333333*/; }
+  border-left: 1px solid #CCCCCC; }
 
 nav a:hover,
 nav a:active,
 .nav-current {
-  background-color: #a0a19d/*#F9CC71*/;
-  color: #000000/*#171717*/;
+  background-color: #a0a19d;
+  color: #000000;
   text-decoration: none; }
 
 nav a#logo, nav a#pull {
@@ -1255,21 +1253,21 @@ nav a#logo:hover, nav a#logo:active, nav a#pull:hover, nav a#pull:active {
     display: none; }
   nav {
     height: auto;
-    border-bottom: 1px solid #CCCCCC/*#555753/*#333333*/; }
+    border-bottom: 1px solid #CCCCCC; }
   nav ul {
     display: none;
     height: auto;
     margin: 0; }
   nav li {
     height: auto;
-    border-bottom: 1px solid #CCCCCC/*#555753/*#333333*/;
+    border-bottom: 1px solid #CCCCCC;
     margin: 0; }
   nav a#logo {
     display: block;
     height: auto;
     width: 80%;
     position: relative;
-    font-family: "Crimson Text", Times, serif;
+    font-family: "Crimson Text", times, serif;
     font-size: 2rem; }
   nav a#pull {
     display: block;
