@@ -1046,7 +1046,7 @@ hr {
   margin-top: 3rem;
   margin-bottom: 2.5rem;
   border-width: 0;
-  border-top: 1px solid #C4C4C2/*#888a85/*#555753/*#333*/; }
+  border-top: 1px solid #CCCCCC/*#888a85/*#555753/*#333*/; }
 
 
 /* Utilities
@@ -1208,13 +1208,13 @@ nav a {
   line-height: 40px; }
 
 nav li a {
-  border-right: 1px solid #c4c4c2/*#555753/*#333333*/;
+  border-right: 1px solid #CCCCCC/*#555753/*#333333*/;
   box-sizing:border-box;
   -moz-box-sizing:border-box;
   -webkit-box-sizing:border-box; }
 
 nav li:first-child a {
-  border-left: 1px solid #c4c4c2/*#555753/*#333333*/; }
+  border-left: 1px solid #CCCCCC/*#555753/*#333333*/; }
 
 nav a:hover,
 nav a:active,
@@ -1255,14 +1255,14 @@ nav a#logo:hover, nav a#logo:active, nav a#pull:hover, nav a#pull:active {
     display: none; }
   nav {
     height: auto;
-    border-bottom: 1px solid #c4c4c2/*#555753/*#333333*/; }
+    border-bottom: 1px solid #CCCCCC/*#555753/*#333333*/; }
   nav ul {
     display: none;
     height: auto;
     margin: 0; }
   nav li {
     height: auto;
-    border-bottom: 1px solid #c4c4c2/*#555753/*#333333*/;
+    border-bottom: 1px solid #CCCCCC/*#555753/*#333333*/;
     margin: 0; }
   nav a#logo {
     display: block;
