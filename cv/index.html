@@ -22,26 +22,30 @@
 
 <body>
 
-  <a href="/"><h1 class="logo">Andrew David Wong</h1></a>
+  <!-- Header -->
 
-  <!-- Navigation Bar -->
+  <div class="header animated fadeInDown">
+    <a href="/" class="plain"><h1 class="logo">Andrew David Wong</h1></a>
 
-  <nav class="clearfix">
-    <ul class="clearfix">
-      <li><a href="/">Home</a></li>
-      <li><a href="/cv/" class="nav-current">CV</a></li>
-      <li><a href="/research/">Research</a></li>
-      <li><a href="/teaching/">Teaching</a></li>
-      <li><a href="/contact/">Contact</a></li>
-    </ul>
-    <a id="logo" href="/">Andrew David Wong</a><a id="pull"></a>
-  </nav>
+    <!-- Navigation Bar -->
+
+    <nav class="clearfix">
+      <ul class="clearfix">
+        <li><a href="/">Home</a></li>
+        <li><a href="/cv/" class="nav-current">CV</a></li>
+        <li><a href="/research/">Research</a></li>
+        <li><a href="/teaching/">Teaching</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+      <a id="logo" href="/">Andrew David Wong</a><a id="pull"></a>
+    </nav>
+  </div>
 
   <!-- Main Content -->
 
-  <div class="container">
+  <div class="container animated fadeInUp">
     <div class="row">
-      <div id="cv" class="u-full-width">
+      <div id="cv" class="offset-by-two eight columns">
         <h3 class="serif center">Curriculum Vitae</h3>
           <div class="center">
             <a href="/cv.pdf" type="application/pdf" class="center icon-main icon-file-pdf"> PDF</a>
@@ -90,7 +94,7 @@
         <h4 class="serif">Teaching</h4>
           <p>Please see my dedicated <a href="../teaching/">teaching</a> page.</p>
         <h4 class="serif">Graduate Coursework in Philosophy</h4>
-        <h5><a href="https://philosophy.ucsd.edu" target="_blank">University of California, San Diego</a></h5>
+        <h5>University of California, San Diego</h5>
           <ul class="plain">
             <li>Spring 2015 &#8212; Thesis Research: Dialectical Pyrrhonism
               &#8212; <a href="http://www.montejohnson.info" target="_blank">Monte Johnson</a></li>
@@ -133,7 +137,7 @@
             <li>Fall 2009 &#8212; Proseminar
               &#8212; <a href="http://philosophyfaculty.ucsd.edu/faculty/rutherford/" target="_blank">Donald Rutherford</a></li>
           </ul>
-        <h5><a href="http://www.hnet.uci.edu/philosophy/" target="_blank">University of California, Irvine</a></h5>
+        <h5>University of California, Irvine</h5>
           <ul class="plain">
             <li>Fall 2013 &#8212; Directed Research: The Five Modes of Agrippa &#8212;
               <a href="http://www.faculty.uci.edu/profile.cfm?faculty_id=5755" target="_blank">Casey Perin</a></li>
@@ -190,12 +194,10 @@
           </ul>
       </div>
     </div>
-  </div>
 
   <!-- Footer -->
 
-  <div id="footer" class="container">
-    <div class="row">
+    <div class="row center">
       <div class="u-full-width">
         <hr>
         <a title="Facebook"
