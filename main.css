@@ -1152,6 +1152,7 @@ nav a#logo:hover, nav a#logo:active, nav a#pull:hover, nav a#pull:active {
 
 @media only screen and (max-width: 250px) {
   nav a#logo {
+    font-size: 1.8rem;
     text-align: left;
     text-indent: 10px; }
 }
