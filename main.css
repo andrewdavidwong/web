@@ -1100,7 +1100,8 @@ nav a#logo:hover, nav a#logo:active, nav a#pull:hover, nav a#pull:active {
     display: none; }
   nav {
     height: auto;
-    border-bottom: 1px solid #CCCCCC; }
+    border-bottom: 1px solid #CCCCCC;
+    background-color: #444542; }
   nav ul {
     display: none;
     height: auto;
@@ -1108,14 +1109,20 @@ nav a#logo:hover, nav a#logo:active, nav a#pull:hover, nav a#pull:active {
   nav li {
     height: auto;
     border-bottom: 1px solid #CCCCCC;
-    margin: 0; }
+    margin: 0;
+    background-color: #888a85; }
+  nav a:hover,
+  nav a:active,
+  .nav-current {
+    background-color: #a0a19d; }
   nav a#logo {
     display: block;
     height: auto;
     width: 80%;
     position: relative;
     font-family: "Crimson Text", times, serif;
-    font-size: 2rem; }
+    font-size: 2rem;
+    text-indent: 5.5rem; }
   nav a#pull {
     display: block;
     height: auto;
@@ -1141,4 +1148,10 @@ nav a#logo:hover, nav a#logo:active, nav a#pull:hover, nav a#pull:active {
     width: 100%; }
   nav li a {
     border-right: 0; }
+}
+
+@media only screen and (max-width: 250px) {
+  nav a#logo {
+    text-align: left;
+    text-indent: 10px; }
 }
