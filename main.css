@@ -1118,7 +1118,8 @@ hr {
   margin-right: 0.9rem; }
 .icon-footer:hover,
 .icon-footer:active {
-  color: #000000; }
+  color: #000000;
+  text-decoration: none; }
 .grow {
   display: inline-block;
   -webkit-transition: all.1s ease-in-out;
@@ -1127,7 +1128,6 @@ hr {
   transition: all.1s ease-in-out; }
 .grow:hover,
 .grow:active {
-  text-decoration: none;
   -ms-transform: scale(2);
   -moz-transform: scale(2);
   -webkit-transform: scale(2);
