@@ -732,10 +732,10 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #5B3C03;
+  color: #00008F;
   text-decoration: none; }
 a:hover, a:active {
-  color: #2e1e02;
+  color: #0000EE;
   text-decoration: underline; }
 a.plain {
   color: inherit;
