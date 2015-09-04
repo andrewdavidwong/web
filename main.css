@@ -1127,6 +1127,7 @@ hr {
   transition: all.1s ease-in-out; }
 .grow:hover,
 .grow:active {
+  text-decoration: none;
   -ms-transform: scale(2);
   -moz-transform: scale(2);
   -webkit-transform: scale(2);
