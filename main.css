@@ -1114,7 +1114,7 @@ nav a#logo:hover, nav a#logo:active, nav a#pull:hover, nav a#pull:active {
   nav {
     height: auto;
     border-bottom: 1px solid #CCCCCC;
-    background-color: #444542; }
+    background-color: #000000; }
   nav ul {
     display: none;
     height: auto;
@@ -1144,7 +1144,7 @@ nav a#logo:hover, nav a#logo:active, nav a#pull:hover, nav a#pull:active {
     cursor: pointer; }
   nav a#pull:after {
     font-family: fa;
-    font-size: 30px;
+    font-size: 20px;
     content:"\e810";
     display: inline-block;
     position: absolute;
