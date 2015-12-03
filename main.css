@@ -546,7 +546,8 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 62.5%;
   overflow-y: scroll;
-  overflow-x: scroll; }
+}
+
 body {
   background-color: transparent;
 /*  background-color: #121516;
@@ -563,6 +564,7 @@ body {
 /*  color: #d3d7cf; /* Oblivion */
 /*  color: #eeeeec; /* Adwaita */
 } 
+
 .center {
   text-align: center; }
 
