@@ -684,7 +684,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: 400; }
-h1.logo {
+h1.name {
   display: inline-block;
   font-family: "Cardo", times, serif;
   padding-top: 3rem;
@@ -1082,10 +1082,10 @@ nav a:active,
   color: #000000;
   text-decoration: none; }
 
-nav a#logo, nav a#pull {
+nav a#name, nav a#pull {
   display: none; }
 
-nav a#logo:hover, nav a#logo:active, nav a#pull:hover, nav a#pull:active {
+nav a#name:hover, nav a#name:active, nav a#pull:hover, nav a#pull:active {
   background-color: transparent;
   color: #FFFFFF; }
 
@@ -1111,7 +1111,7 @@ nav a#logo:hover, nav a#logo:active, nav a#pull:hover, nav a#pull:active {
 }
 
 @media only screen and (max-width: 400px) {
-  h1.logo {
+  h1.name {
     display: none; }
   nav {
     height: auto;
@@ -1130,7 +1130,7 @@ nav a#logo:hover, nav a#logo:active, nav a#pull:hover, nav a#pull:active {
   nav a:active,
   .nav-current {
     background-color: #a0a19d; }
-  nav a#logo {
+  nav a#name {
     display: block;
     height: auto;
     width: 80%;
@@ -1166,7 +1166,7 @@ nav a#logo:hover, nav a#logo:active, nav a#pull:hover, nav a#pull:active {
 }
 
 @media only screen and (max-width: 250px) {
-  nav a#logo {
+  nav a#name {
     font-size: 1.8rem;
     text-align: left;
     text-indent: 10px; }
