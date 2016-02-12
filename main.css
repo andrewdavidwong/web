@@ -1083,11 +1083,9 @@ nav a:active,
   text-decoration: none; }
 
 nav a#name, nav a#pull {
-  display: none; }
-
-nav a#name:hover, nav a#name:active, nav a#pull:hover, nav a#pull:active {
+  display: none;
   background-color: transparent;
-  color: #FFFFFF; }
+  color: #000000; }
 
 @media screen and (max-width: 700px) {
   nav {
@@ -1116,7 +1114,7 @@ nav a#name:hover, nav a#name:active, nav a#pull:hover, nav a#pull:active {
   nav {
     height: auto;
     border-bottom: 1px solid #CCCCCC;
-    background-color: #000000; }
+    background-color: transparent; }
   nav ul {
     display: none;
     height: auto;
