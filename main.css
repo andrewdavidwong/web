@@ -107,7 +107,8 @@ a:hover {
  */
 
 abbr[title] {
-  border-bottom: 1px dotted;
+  text-decoration: none;
+  border-bottom: dotted 1px;
 }
 
 /**
@@ -658,14 +659,15 @@ body {
 /* Font Awesome icons (subset) */
 @font-face {
   font-family: 'fa';
-  src: url('fonts/Font-Awesome/fa.eot');
-  src: url('fonts/Font-Awesome/fa.eot#iefix') format('embedded-opentype'),
-       url('fonts/Font-Awesome/fa.woff') format('woff'),
-       url('fonts/Font-Awesome/fa.ttf') format('truetype'),
-       url('fonts/Font-Awesome/fa.svg#fa') format('svg');
   font-weight: normal;
   font-style: normal;
+  src:  url('fonts/Font-Awesome/fa.eot?3ndiaj');
+  src:  url('fonts/Font-Awesome/fa.eot?3ndiaj#iefix') format('embedded-opentype'),
+        url('fonts/Font-Awesome/fa.ttf?3ndiaj') format('truetype'),
+        url('fonts/Font-Awesome/fa.woff?3ndiaj') format('woff'),
+        url('fonts/Font-Awesome/fa.svg?3ndiaj#fa') format('svg');
 }
+
 /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
 /* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
 /*
@@ -708,7 +710,9 @@ h1.sans-serif,
 h2.sans-serif,
 h3.sans-serif,
 h4.sans-serif,
-h5.sans-serif,
+h5.sans-serif {
+  padding-top: 1.5rem;
+  margin-bottom: 1rem; },
 h6.sans-serif {
   font-family: "Source Sans Pro", arial, sans-serif; }
 h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem; }
@@ -893,6 +897,8 @@ hr {
   border-top: 1px solid #CCCCCC; }
 .spacer {
   padding-top: 6rem; }
+svg {
+  margin-right: 0.5rem; }
 
 
 /* Utilities
@@ -912,54 +918,92 @@ hr {
 /* Icons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-[class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "fa";
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'fa' !important;
+  speak: none;
   font-style: normal;
   font-weight: normal;
-  speak: none;
- 
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
   display: inline-block;
   text-decoration: none;
   margin-right: 0.3rem;
-  /* opacity: .8; */
- 
-  /* For safety - reset parent styles, that can break glyph codes*/
-  font-variant: normal;
-  text-transform: none;
- 
-  /* Font smoothing. That was taken from TWBS */
+
+  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- 
-  /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
- 
-.icon-facebook:before { content: '\e800'; } /* '' */
-.icon-twitter:before { content: '\e801'; } /* '' */
-.icon-gplus:before { content: '\e802'; } /* '' */
-.icon-linkedin:before { content: '\e803'; } /* '' */
-.icon-font:before { content: '\e804'; } /* '' */
-.icon-github-circled:before { content: '\e805'; } /* '' */
-.icon-bitbucket:before { content: '\e806'; } /* '' */
-.icon-bitcoin:before { content: '\e807'; } /* '' */
-.icon-key:before { content: '\e808'; } /* '' */
-.icon-file-pdf:before { content: '\e809'; } /* '' */
-.icon-mail:before { content: '\e80a'; } /* '' */
-.icon-mail-squared:before { content: '\e80b'; } /* '' */
-.icon-lock:before { content: '\e80c'; } /* '' */
-.icon-phone:before { content: '\e80d'; } /* '' */
-.icon-skype:before { content: '\e80e'; } /* '' */
-.icon-building:before { content: '\e80f'; } /* '' */
-.icon-menu:before { content: '\e810'; } /* '' */
+
+.icon-bars:before {
+    content: "\e912";
+}
+.icon-chain:before {
+    content: "\e911";
+}
+.icon-skype:before {
+    content: "\e910";
+}
+.icon-file-pdf-o:before {
+    content: "\e902";
+}
+.icon-key:before {
+    content: "\e903";
+}
+.icon-bitcoin:before {
+    content: "\e905";
+}
+.icon-bitbucket:before {
+    content: "\e906";
+}
+.icon-github:before {
+    content: "\e907";
+}
+.icon-font:before {
+    content: "\e908";
+}
+.icon-linkedin:before {
+    content: "\e909";
+}
+.icon-google-plus:before {
+    content: "\e90a";
+}
+.icon-twitter:before {
+    content: "\e90b";
+}
+.icon-facebook:before {
+    content: "\e90c";
+}
+.icon-building-o:before {
+    content: "\e90d";
+}
+.icon-phone:before {
+    content: "\e90e";
+}
+.icon-lock:before {
+    content: "\e90f";
+}
+.icon-at:before {
+    content: "\e901";
+}
+.icon-envelope-o:before {
+    content: "\e904";
+}
+.icon-video-camera:before {
+    content: "\e900";
+}
 
 .icon-main {
   font-size: 2.4rem; }
+.icon-header {
+  margin-right: 1rem; }
 .icon-footer {
   font-size: 3rem;
   color: #888a85;
-  margin-left: 1.2rem;
-  margin-right: 0.9rem; }
+  margin-left: 1.6rem;
+  margin-right: 1.3rem; }
 .icon-footer:hover,
 .icon-footer:active {
   color: #000000;
@@ -1145,7 +1189,7 @@ nav a#name, nav a#pull {
   nav a#pull:after {
     font-family: fa;
     font-size: 20px;
-    content:"\e810";
+    content:"\e912";
     display: inline-block;
     position: absolute;
     right: 10px;
