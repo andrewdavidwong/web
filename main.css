@@ -1144,6 +1144,7 @@ nav ul {
   margin: 0 auto;
   width: 600px;
   height: 40px;
+  font-size: 0;
 }
 
 nav li {
