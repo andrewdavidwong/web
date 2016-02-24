@@ -1137,7 +1137,6 @@ nav {
   width: 100%;
   max-width: 960px;
   background-color: #888a85;
-  position: relative;
 }
 
 nav ul {
@@ -1149,7 +1148,6 @@ nav ul {
 
 nav li {
   display: inline;
-  float: left;
   font-family: "Cantarell", arial, sans-serif;
   font-size: 1.5rem;
 }
