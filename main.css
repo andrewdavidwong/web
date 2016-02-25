@@ -435,8 +435,8 @@ th {
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 - Grid
-- Base Styles
 - Typography
+- Base Styles
 - Fonts
 - Links
 - Buttons
@@ -542,38 +542,6 @@ th {
   .offset-by-one-half.column,
   .offset-by-one-half.columns     { margin-left: 52%; }
 
-}
-
-
-/* Base Styles
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* NOTE
-html is set to 62.5% so that all the REM measurements throughout Skeleton
-are based on 10px sizing. So basically 1.5rem = 15px :) */
-html {
-  font-size: 62.5%;
-  overflow-y: scroll;
-}
-
-body {
-  background-color: transparent;
-  font-size: 1.6rem; /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.6;
-  font-weight: 400;
-  font-family: "Source Sans Pro", arial, sans-serif;
-} 
-
-.center {
-  text-align: center;
-}
-
-.right {
-  text-align: right;
-}
-
-.subtle {
-  color: #666;
-  margin-left: 0.5rem;
 }
 
 
@@ -687,6 +655,38 @@ body {
 */
 
 
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* NOTE
+html is set to 62.5% so that all the REM measurements throughout Skeleton
+are based on 10px sizing. So basically 1.5rem = 15px :) */
+html {
+  font-size: 62.5%;
+  overflow-y: scroll;
+}
+
+body {
+  background-color: transparent;
+  font-size: 1.6rem; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.subtle {
+  color: #666;
+  margin-left: 0.5rem;
+}
+
+
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
@@ -696,7 +696,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1.name {
   display: inline-block;
-  font-family: "Cardo", times, serif;
+  font-family: "Cardo", Times, serif;
   padding-top: 3rem;
   margin-bottom: 3rem;
 }
@@ -706,7 +706,7 @@ h3.serif,
 h4.serif,
 h5.serif,
 h6.serif {
-  font-family: "Crimson Text", times, serif;
+  font-family: "Crimson Text", Times, serif;
   margin-top: 5rem;
 }
 h1.short,
@@ -726,7 +726,7 @@ h5.sans-serif {
   margin-bottom: 1rem;
 }
 h6.sans-serif {
-  font-family: "Source Sans Pro", arial, sans-serif;
+  font-family: "Source Sans Pro", Arial, sans-serif;
   margin-bottom: 0.5rem;
 }
 h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem; }
@@ -1083,7 +1083,7 @@ svg {
 
 #copyright {
   font-size: 12px;
-  font-family: arial, sans-serif;
+  font-family: Arial, sans-serif;
   color: #888a85;
   margin-top: 2rem;
   margin-bottom: 3rem;
