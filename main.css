@@ -636,11 +636,11 @@ th {
   font-family: 'fa';
   font-weight: normal;
   font-style: normal;
-  src:  url('fonts/Font-Awesome/fa.eot?3ndiaj');
-  src:  url('fonts/Font-Awesome/fa.eot?3ndiaj#iefix') format('embedded-opentype'),
-        url('fonts/Font-Awesome/fa.ttf?3ndiaj') format('truetype'),
-        url('fonts/Font-Awesome/fa.woff?3ndiaj') format('woff'),
-        url('fonts/Font-Awesome/fa.svg?3ndiaj#fa') format('svg');
+  src:  url('fonts/Font-Awesome/fa.eot');
+  src:  url('fonts/Font-Awesome/fa.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Font-Awesome/fa.ttf') format('truetype'),
+        url('fonts/Font-Awesome/fa.woff') format('woff'),
+        url('fonts/Font-Awesome/fa.svg#fa') format('svg');
 }
 
 /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
