@@ -1201,10 +1201,6 @@ nav a {
   transition: all 0.3s;
 }
 
-header.smaller {
-
-}
-
 header.smaller h1.name {
   font-size: 3rem;
   margin: 0;
@@ -1268,6 +1264,15 @@ nav a#name, nav a#pull {
   nav a {
     line-height: 60px;
   }
+  header.smaller h1.name {
+    display: none;
+  }
+  header.smaller nav {
+    height: 40px;
+  }
+  header.smaller nav a {
+    line-height: 40px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -1286,6 +1291,12 @@ nav a#name, nav a#pull {
   }
   nav a {
     line-height: 50px;
+  }
+  header.smaller nav {
+    height: 30px;
+  }
+  header.smaller nav a {
+    line-height: 30px;
   }
 }
 
@@ -1384,7 +1395,7 @@ nav a#name, nav a#pull {
 
 @media (max-width: 250px) {
   nav a#name {
-    display: none;
+    font-size: 1.4rem;
   }
 }
 
