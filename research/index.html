@@ -143,9 +143,7 @@
          Andrew David Wong. All rights reserved.
     </div>
   </div>
-  <!-- Navigation Bar Scripts -->
-  <script type="text/javascript">function init(){window.addEventListener("scroll",function(e){var s=window.pageYOffset||document.documentElement.scrollTop,n=50,a=document.querySelector("header");s>n?classie.add(a,"smaller"):classie.has(a,"smaller")&&classie.remove(a,"smaller")})}!function(e){"use strict";function s(e){return new RegExp("(^|\\s+)"+e+"(\\s+|$)")}function n(e,s){var n=a(e,s)?c:t;n(e,s)}var a,t,c;"classList"in document.documentElement?(a=function(e,s){return e.classList.contains(s)},t=function(e,s){e.classList.add(s)},c=function(e,s){e.classList.remove(s)}):(a=function(e,n){return s(n).test(e.className)},t=function(e,s){a(e,s)||(e.className=e.className+" "+s)},c=function(e,n){e.className=e.className.replace(s(n)," ")});var i={hasClass:a,addClass:t,removeClass:c,toggleClass:n,has:a,add:t,remove:c,toggle:n};"function"==typeof define&&define.amd?define(i):e.classie=i}(window),window.onload=init();</script>
-  <script type="text/javascript" src="/jquery.min.js"></script>
-  <script type="text/javascript">$(function(){var e=$("#pull");menu=$("nav ul"),menuHeight=menu.height(),$(e).on("click",function(e){e.preventDefault(),menu.slideToggle()}),$(window).resize(function(){var e=$(window).width();e>400&&menu.is(":hidden")&&menu.removeAttr("style")})});</script>
+  <!-- Navigation Bar Script -->
+  <script type="text/javascript" async src="/nav.js"></script>
 </body>
 </html>
