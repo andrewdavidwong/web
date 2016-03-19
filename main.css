@@ -665,6 +665,7 @@ body {
 }
 a[type="application/pdf"] {
   font-family: "Cantarell", arial, sans-serif;
+  display: inline-block;
 }
 body.sans-serif,
 li.sans-serif,
