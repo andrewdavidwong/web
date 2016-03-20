@@ -1092,6 +1092,9 @@ svg {
     content: "\e900";
 }
 
+.icon-header {
+  margin-right: 1rem;
+}
 .icon-main {
   font-size: 2.8rem;
   margin-right: 0.8rem;
