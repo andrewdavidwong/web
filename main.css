@@ -1158,6 +1158,18 @@ h1.name {
   transition: all 0.3s ease-in-out;
 }
 
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+
 nav {
   height: 80px;
   width: 100%;
@@ -1175,25 +1187,18 @@ nav ul {
   font-size: 0;
 }
 
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  display: table;
-}
-.clearfix:after {
-  clear: both;
-}
-.clearfix {
-  *zoom: 1;
+nav li {
+  padding: 0;
+  margin: 0;
 }
 
-nav a {
+nav li a {
   color: #000;
-  display: inline;
+  display: inline-block;
   text-align: center;
   text-decoration: none;
   line-height: 80px;
-  margin: 0 4.5%;
+  padding: 0 4.5%;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -1273,7 +1278,7 @@ nav a#name, nav a#pull {
   nav ul {
     height: 70px;
   }
-  nav a {
+  nav li a {
     line-height: 70px;
   }
 }
@@ -1286,14 +1291,14 @@ nav a#name, nav a#pull {
   nav ul {
     height: 60px;
   }
-  nav a {
+  nav li a {
     line-height: 60px;
   }
 }
 
 @media (max-width: 850px) {
-  nav a {
-    margin: 0 3%;
+  nav li a {
+    padding: 0 3%;
   }
 }
 
@@ -1308,18 +1313,16 @@ nav a#name, nav a#pull {
   nav ul {
     height: 50px;
   }
-  nav li {
-    font-size: 1.4rem;
-  }
-  nav a {
+  nav li a {
     line-height: 50px;
-    margin: 0 1.4rem;
+    font-size: 1.4rem;
+    padding: 0 1.4rem;
   }
 }
 
 @media (max-width: 500px) {
-  nav a {
-    margin: 0 1rem;
+  nav li a {
+    padding: 0 1rem;
   }
 }
 
