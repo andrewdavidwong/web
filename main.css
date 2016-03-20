@@ -1219,6 +1219,29 @@ header.smaller nav a {
   line-height: 45px;
 }
 
+/* Use a less obtrusive sticky navigation bar on short, wide screens
+   (such as horizontal smartphones). */
+@media (max-height: 700px) {
+  header.smaller h1.name {
+    display: none;
+  }
+  header.smaller nav {
+    height: 40px;
+  }
+  header.smaller nav a {
+    line-height: 40px;
+  }
+}
+@media (max-height: 500px) {
+  header.smaller nav {
+    height: 30px;
+  }
+  header.smaller nav a {
+    font-size: 1.4rem;
+    line-height: 30px;
+  }
+}
+
 /* Make sure to apply box-sizing to `nav li a`, not `nav li`, or else menu
 entries won't be able to use the full line (50% width below 400px). */
 nav li a {
@@ -1266,14 +1289,11 @@ nav a#name, nav a#pull {
   nav a {
     line-height: 60px;
   }
-  header.smaller h1.name {
-    display: none;
-  }
-  header.smaller nav {
-    height: 40px;
-  }
-  header.smaller nav a {
-    line-height: 40px;
+}
+
+@media (max-width: 850px) {
+  nav a {
+    margin: 0 3%;
   }
 }
 
@@ -1293,19 +1313,13 @@ nav a#name, nav a#pull {
   }
   nav a {
     line-height: 50px;
-  }
-  header.smaller nav {
-    height: 30px;
-  }
-  header.smaller nav a {
-    line-height: 30px;
+    margin: 0 1.4rem;
   }
 }
 
-
 @media (max-width: 500px) {
   nav a {
-    margin: 0 1.2rem;
+    margin: 0 1rem;
   }
 }
 
