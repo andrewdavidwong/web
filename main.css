@@ -663,10 +663,6 @@ body {
   font-weight: 400;
   font-family: "Crimson Text", Times, serif;
 }
-a[type="application/pdf"] {
-  font-family: "Cantarell", arial, sans-serif;
-  display: inline-block;
-}
 body.sans-serif,
 li.sans-serif,
 .url,
@@ -676,6 +672,13 @@ a[href^="xmpp:"],
 a[href^="skype:"] {
   font-size: 1.8rem;
   font-family: "Source Sans Pro", Arial, sans-serif;
+}
+a[type="application/pdf"] {
+  font-size: 1.8rem;
+  font-family: "Cantarell", arial, sans-serif;
+}
+a.pdf-large {
+  font-size: 2.4rem;
 }
 nav li {
   display: inline;
@@ -717,6 +720,9 @@ nav li {
   a[href^="skype:"],
   .greek {
     font-size: 1.6rem;
+  }
+  a.pdf-large {
+    font-size: 1.8rem;
   }
   .fpr {
     font-size: 12px;
@@ -1031,9 +1037,6 @@ svg {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-bars:before {
-    content: "\e912";
-}
 .icon-chain:before {
     content: "\e911";
 }
@@ -1090,15 +1093,23 @@ svg {
 }
 
 .icon-main {
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   margin-right: 0.8rem;
 }
 .icon-small {
-  font-size: 1.8rem;
+  font-size: 2.1rem;
   margin-right: 0.6rem;
 }
-.icon-header {
-  margin-right: 1rem;
+
+@media (max-width: 600px) {
+  .icon-main {
+    font-size: 2.1rem;
+    margin-right: 0.6rem;
+  }
+  .icon-small {
+    font-size: 1.9rem;
+    margin-right: 0.4rem;
+  }
 }
 
 
