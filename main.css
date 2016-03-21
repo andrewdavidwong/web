@@ -1409,10 +1409,12 @@ nav a#name, nav a#pull {
     display: none;
     height: 40px;
     margin: 0;
+    padding: 0;
   }
   nav li {
     height: 40px;
     margin: 0;
+    padding: 0;
   }
   nav a {
     line-height: 40px;
@@ -1420,6 +1422,8 @@ nav a#name, nav a#pull {
   nav li a {
     display: inline-block;
     margin: 0;
+    padding: 0;
+    line-height: 40px;
     width: 50%;
     border-bottom: 1px solid #d9d9d9;
     background-color: #fff;
