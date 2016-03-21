@@ -543,13 +543,8 @@ th {
 
 }
 
-@media (min-width: 1200px) {
-  .container { max-width: 1100px; }
-}
-
-@media (min-width: 1500px) {
-  .container { max-width: 1200px; }
-}
+@media (min-width: 1200px) { .container { max-width: 1100px; } }
+@media (min-width: 1500px) { .container { max-width: 1200px; } }
 
 /* Fonts
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -704,6 +699,52 @@ nav li {
 .greek {
   font-size: 1.8rem;
   font-family: "Cardo", Times, serif;
+}
+
+@media (max-width: 1000px) {
+  body {
+    font-size: 2rem;
+  }
+  body.sans-serif,
+  li.sans-serif,
+  .url,
+  .u-url,
+  a[type="application/pdf"],
+  a[href^="mailto:"],
+  a[href^="xmpp:"],
+  a[href^="skype:"],
+  .greek {
+    font-size: 1.7rem;
+  }
+  a.pdf-large {
+    font-size: 2.2rem;
+  }
+  .fpr {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 850px) {
+  body {
+    font-size: 1.9rem;
+  }
+  body.sans-serif,
+  li.sans-serif,
+  .url,
+  .u-url,
+  a[type="application/pdf"],
+  a[href^="mailto:"],
+  a[href^="xmpp:"],
+  a[href^="skype:"],
+  .greek {
+    font-size: 1.65rem;
+  }
+  a.pdf-large {
+    font-size: 2rem;
+  }
+  .fpr {
+    font-size: 12.5px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -1283,7 +1324,7 @@ nav a#name, nav a#pull {
 
 @media (max-width: 1200px) {
   .container {
-    margin-top: 16rem;
+    margin-top: 19rem;
   }
   h1.name {
     margin: 2rem auto;
