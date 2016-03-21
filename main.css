@@ -1007,7 +1007,7 @@ hr {
   width: 100%;
   max-width: 100%;
   margin-top: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   border-width: 0;
   border-top: 1px solid #d9d9d9;
 }
@@ -1178,7 +1178,10 @@ svg {
   font-size: 12px;
   font-family: Arial, sans-serif;
   color: #888a85;
-  margin: 3rem auto;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -1567,7 +1570,7 @@ html, body {
   text-align: center;
   width: 100%;
   max-width: 1000px;
-  margin: 3rem auto;
+  margin: 0 auto;
 }
 
 .icon-footer {
@@ -1577,14 +1580,19 @@ html, body {
 
 .grow {
   display: inline-block;
+  position: relative;
+  width: 12.5%; /* Eight icons (1/8 = 12.5%) */
+}
+.grow a {
+  width: 100%;
+  padding: 3rem 0;
   -webkit-transition: all.1s ease-in-out;
   -moz-transition: all.1s ease-in-out;
   -o-transition: all.1s ease-in-out;
   transition: all.1s ease-in-out;
-  width: 12.5%; /* Eight icons (1/8 = 12.5%) */
 }
-.grow:hover,
-.grow:active {
+.grow a:hover,
+.grow a:active {
   -webkit-transform: scale(1.8);
   -moz-transform: scale(1.8);
   -ms-transform: scale(1.8);
@@ -1623,12 +1631,17 @@ html, body {
   #footer, .push {
     height: 29rem;
   }
-  #footer {
-    margin: 0;
-  }
   .grow {
     width: 25%;
-    margin: 2rem 0;
+  }
+  .grow a {
+    padding: 2rem 0;
+  }
+  hr {
+    margin-bottom: 1rem;
+  }
+  #copyright {
+    margin-top: 2rem;
   }
 }
 
@@ -1642,8 +1655,8 @@ html, body {
   .icon-footer {
     font-size: 2.8rem;
   }
-  .grow {
-    margin: 1.4rem 0;
+  .grow a {
+    padding: 1.4rem 0;
   }
 }
 
@@ -1657,8 +1670,8 @@ html, body {
   .icon-footer {
     font-size: 2.6rem;
   }
-  .grow {
-    margin: 1.2rem 0;
+  .grow a {
+    padding: 1.2rem 0;
   }
 }
 
