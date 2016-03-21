@@ -1145,6 +1145,20 @@ svg {
   margin-right: 0.6rem;
 }
 
+@media (max-width: 1000px) {
+  .icon-main {
+    font-size: 2.5rem;
+    margin-right: 0.7rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .icon-main {
+    font-size: 2.3rem;
+    margin-right: 0.65rem;
+  }
+}
+
 @media (max-width: 600px) {
   .icon-main {
     font-size: 2.1rem;
