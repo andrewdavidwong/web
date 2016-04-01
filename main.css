@@ -1208,11 +1208,6 @@ header {
   position: fixed;
   z-index: 10;
   background-color: #fff;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
 }
 
 .container {
@@ -1222,6 +1217,8 @@ header {
 h1.name {
   display: inline-block;
   font-family: "Cardo", Times, serif;
+  height: 60px;
+  line-height: 60px;
   margin: 3rem auto;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -1248,6 +1245,11 @@ nav {
   border-top: 1px solid #d9d9d9;
   border-bottom: 1px solid #d9d9d9;
   margin: 0 auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 nav ul {
@@ -1279,9 +1281,8 @@ nav li a {
 }
 
 header.smaller h1.name {
-  font-size: 3rem;
+  font-size: 3.6rem;
   margin: 0;
-  line-height: 55px;
 }
 
 header.smaller nav {
@@ -1309,15 +1310,7 @@ header.smaller nav a {
     line-height: 40px;
   }
 }
-@media (max-height: 500px) {
-  header.smaller nav {
-    height: 30px;
-  }
-  header.smaller nav a {
-    font-size: 1.4rem;
-    line-height: 30px;
-  }
-}
+
 
 /* Make sure to apply box-sizing to `nav li a`, not `nav li`, or else menu
 entries won't be able to use the full line (50% width below 400px). */
@@ -1398,7 +1391,8 @@ nav a#name, nav a#pull {
   }
 }
 
-@media (max-width: 400px) {
+/* Switch to a collapsible menu on especially narrow OR short screens. */
+@media (max-width: 400px), (max-height: 400px) {
   .container {
     margin-top: 5rem;
   }
@@ -1410,6 +1404,7 @@ nav a#name, nav a#pull {
   }
   nav ul {
     display: none;
+    max-width: 100%;
     height: 40px;
     margin: 0;
     padding: 0;
