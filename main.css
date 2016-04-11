@@ -1297,20 +1297,6 @@ header.smaller nav a {
   line-height: 45px;
 }
 
-/* Use a less obtrusive sticky navigation bar on short, wide screens
-   (such as horizontal smartphones). */
-@media (max-height: 700px) {
-  header.smaller h1.name {
-    display: none;
-  }
-  header.smaller nav {
-    height: 40px;
-  }
-  header.smaller nav a {
-    line-height: 40px;
-  }
-}
-
 
 /* Make sure to apply box-sizing to `nav li a`, not `nav li`, or else menu
 entries won't be able to use the full line (50% width below 400px). */
@@ -1397,7 +1383,7 @@ nav a#name, nav a#pull {
 }
 
 /* Switch to a collapsible menu on especially narrow OR short screens. */
-@media (max-width: 400px), (max-height: 400px) {
+@media (max-width: 400px), (max-height: 600px) {
   .container {
     margin-top: 5rem;
   }
