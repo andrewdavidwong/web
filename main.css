@@ -1459,6 +1459,7 @@ nav a#name, nav a#pull {
     margin: auto 0;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
     -webkit-transition: .5s ease-in-out;
@@ -1477,6 +1478,7 @@ nav a#name, nav a#pull {
     left: 15px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
     -webkit-transition: .25s ease-in-out;
@@ -1502,12 +1504,14 @@ nav a#name, nav a#pull {
   header.smaller #pull.open span:nth-child(2) {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
   }
   header.smaller #pull.open span:nth-child(3) {
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
   }
@@ -1595,6 +1599,7 @@ nav a#name, nav a#pull {
     margin: auto 0;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
     -webkit-transition: .5s ease-in-out;
@@ -1613,6 +1618,7 @@ nav a#name, nav a#pull {
     left: 15px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
     -webkit-transition: .25s ease-in-out;
@@ -1638,12 +1644,14 @@ nav a#name, nav a#pull {
   #pull.open span:nth-child(2) {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
   }
   #pull.open span:nth-child(3) {
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
   }
