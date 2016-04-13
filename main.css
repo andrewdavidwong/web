@@ -701,7 +701,7 @@ nav li {
   font-family: "Cardo", Times, serif;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1000px), (max-height: 800px) {
   body {
     font-size: 2rem;
   }
@@ -724,7 +724,7 @@ nav li {
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 850px), (max-height: 600px) {
   body {
     font-size: 1.9rem;
   }
@@ -747,7 +747,7 @@ nav li {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 600px), (max-height: 400px) {
   body {
     font-size: 1.8rem;
   }
@@ -774,8 +774,8 @@ nav li {
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
   font-family: "Crimson Text", Times, serif;
   font-weight: 400;
 }
@@ -797,15 +797,15 @@ h6.sans-serif {
   padding-top: 1.5rem;
   margin-bottom: 1rem;
 }
-h1 { font-size: 4.2rem; line-height: 1.2;  letter-spacing: -.1rem; }
-h2 { font-size: 3.2rem; line-height: 1.25; letter-spacing: -.1rem; }
-h3 { font-size: 2.4rem; line-height: 1.3;  letter-spacing: -.1rem; }
-h4 { font-size: 2.1rem; line-height: 1.35; letter-spacing: -.08rem; }
-h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
-h6 { font-size: 1.6rem; line-height: 1.6;  letter-spacing: 0; }
+h1 { font-size: 5.5rem; line-height: 1.2;  letter-spacing: -.1rem; }
+h2 { font-size: 4.2rem; line-height: 1.25; letter-spacing: -.1rem; }
+h3 { font-size: 3.2rem; line-height: 1.3;  letter-spacing: -.1rem; }
+h4 { font-size: 2.8rem; line-height: 1.35; letter-spacing: -.08rem; }
+h5 { font-size: 2.4rem; line-height: 1.5;  letter-spacing: -.05rem; }
+h6 { font-size: 2.1rem; line-height: 1.6;  letter-spacing: 0; }
 
 /* Larger than phablet */
-@media (min-width: 600px) {
+@media (max-width: 1200px), (max-height: 800px) {
   h1 { font-size: 4.8rem; }
   h2 { font-size: 3.6rem; }
   h3 { font-size: 2.8rem; }
@@ -819,16 +819,16 @@ h6 { font-size: 1.6rem; line-height: 1.6;  letter-spacing: 0; }
 }
 
 /* Larger than Desktop HD */
-@media (min-width: 1200px) {
-  h1 { font-size: 5.5rem; }
-  h2 { font-size: 4.2rem; }
-  h3 { font-size: 3.2rem; }
-  h4 { font-size: 2.8rem; }
-  h5 { font-size: 2.4rem; }
-  h6 { font-size: 2.1rem; }
+@media (max-width: 600px), (max-height: 600px) {
+  h1 { font-size: 4.2rem; }
+  h2 { font-size: 3.2rem; }
+  h3 { font-size: 2.4rem; }
+  h4 { font-size: 2.1rem; }
+  h5 { font-size: 1.8rem; }
+  h6 { font-size: 1.6rem; }
   h1, h2, h3, h4, h5, h6 {
-    margin-top: 4rem;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -1289,6 +1289,7 @@ header.smaller nav {
   height: 45px;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.1);
 }
+
 header.smaller nav ul {
   height: 45px;
 }
@@ -1296,7 +1297,6 @@ header.smaller nav ul {
 header.smaller nav a {
   line-height: 45px;
 }
-
 
 /* Make sure to apply box-sizing to `nav li a`, not `nav li`, or else menu
 entries won't be able to use the full line (50% width below 400px). */
@@ -1313,12 +1313,16 @@ nav a:active,
   text-decoration: underline;
 }
 
+nav a:hover {
+  background-color: #f2f2f2;
+}
+
 nav a#name, nav a#pull {
   display: none;
   color: #000;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1200px), (max-height: 800px) {
   .container {
     margin-top: 19rem;
   }
@@ -1334,7 +1338,7 @@ nav a#name, nav a#pull {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1000px), (max-height: 800px) {
   .container {
     margin-top: 16rem;
   }
@@ -1348,12 +1352,13 @@ nav a#name, nav a#pull {
 }
 
 @media (max-width: 850px) {
-  nav li a {
+  nav li a,
+  header.smaller nav li a {
     padding: 0 3%;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 600px), (max-height: 600px) {
   .container {
     margin-top: 14rem;
   }
@@ -1369,60 +1374,194 @@ nav a#name, nav a#pull {
   nav ul {
     height: 50px;
   }
-  nav li a {
+  nav li a,
+  header.smaller nav li a {
     line-height: 50px;
     font-size: 1.4rem;
-    padding: 0 1.4rem;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-height: 600px) {
+  nav,
+  nav ul {
+    height: 40px;
+  }
   nav li a {
-    padding: 0 1rem;
+    line-height: 40px;
   }
 }
 
-/* Switch to a collapsible menu on especially narrow OR short screens. */
-@media (max-width: 400px), (max-height: 600px) {
+/* Switch to a collapsible menu after scrolling on short screens. */
+@media (max-height: 600px) {
+  header.smaller h1.name {
+    display: none;
+  }
+  header.smaller nav {
+    height: 40px;
+  }
+  header.smaller nav ul {
+    display: none;
+    background-color: #fff;
+    max-width: 100%;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.1);
+  }
+  header.smaller nav li {
+    height: 40px;
+    margin: 0;
+    padding: 0;
+  }
+  header.smaller nav a {
+    line-height: 40px;
+  }
+  header.smaller nav li a {
+    display: inline-block;
+    margin: 0;
+    padding: 0 4.5%;
+    line-height: 40px;
+
+  }
+  header.smaller nav li a:hover {
+    background-color: #f2f2f2;
+  }
+  header.smaller nav a#name {
+    position: relative;
+    display: block;
+    height: 40px;
+    width: auto;
+    font-family: "Crimson Text", times, serif;
+    font-size: 2rem;
+    text-decoration: none;
+  }
+
+  /* Animated pull menu */
+  header.smaller #pull {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 40px;
+    margin: auto 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+  }
+  header.smaller #pull span {
+    display: block;
+    position: absolute;
+    width: 22px;
+    height: 2px;
+    background: #000;
+    opacity: 1;
+    left: 15px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+  }
+  header.smaller #pull span:nth-child(1) {
+    top: 14px;
+  }
+  header.smaller #pull span:nth-child(2),
+  header.smaller #pull span:nth-child(3) {
+    top: 20px;
+  }
+  header.smaller #pull span:nth-child(4) {
+    top: 26px;
+  }
+  header.smaller #pull.open span:nth-child(1) {
+    top: 20px;
+    width: 0%;
+    left: 50%;
+  }
+  header.smaller #pull.open span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  header.smaller #pull.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  header.smaller #pull.open span:nth-child(4) {
+    top: 20px;
+    width: 0%;
+    left: 50%;
+  }
+}
+
+/* Switch to a collapsible menu on especially narrow screens. */
+@media (max-width: 400px) {
   .container {
     margin-top: 5rem;
   }
   h1.name {
     display: none;
   }
-  nav {
+  nav,
+  header.smaller nav {
     height: 40px;
   }
-  nav ul {
+  nav ul,
+  header.smaller nav ul {
     display: none;
     max-width: 100%;
     height: 40px;
     margin: 0;
     padding: 0;
+    border-top: 0;
   }
-  nav li {
+  nav li,
+  header.smaller nav li {
     height: 40px;
     margin: 0;
     padding: 0;
   }
-  nav a {
+  nav a,
+  header.smaller nav a {
     line-height: 40px;
   }
-  nav li a {
+  nav li a,
+  header.smaller nav li a {
     display: inline-block;
     margin: 0;
     padding: 0;
     line-height: 40px;
     width: 50%;
+    border-top: 0;
     border-bottom: 1px solid #d9d9d9;
+    border-right: 0;
+    border-left: 0;
     background-color: #fff;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.1);
   }
-  nav li:first-child a {
+  nav li a:hover {
+    background-color: #f2f2f2;
+  }
+  nav li:first-child a,
+  header.smaller nav li:first-child a {
     width: 100%;
     border-top: 1px solid #d9d9d9;
   }
-  nav li:nth-child(even) a {
+  nav li:nth-child(even) a,
+  header.smaller nav li:nth-child(even) a {
     border-right: 1px solid #d9d9d9;
   }
   nav a#name {
@@ -1512,22 +1651,40 @@ nav a#name, nav a#pull {
   }
 }
 
+@media (max-width: 600px) {
+  nav li a,
+  header.smaller nav li a {
+    padding: 0 1.4rem;
+  }
+}
+
+@media (max-width: 500px) {
+  nav li a,
+  header.smaller nav li a {
+    padding: 0 1rem;
+  }
+}
+
 @media (max-width: 280px) {
-  nav li a {
+  nav li a,
+  header.smaller nav li a {
     display: block;
     width: 100%;
   }
 
-  nav li:nth-child(even) a {
+  nav li:nth-child(even) a,
+  header.smaller nav li:nth-child(even) a {
     border-right: 0;
   }
-  nav a#name {
+  nav a#name,
+  header.smaller nav a#name {
     font-size: 1.8rem;
   }
 }
 
 @media (max-width: 250px) {
-  nav a#name {
+  nav a#name,
+  header.smaller nav a#name {
     font-size: 1.4rem;
   }
 }
@@ -1546,10 +1703,10 @@ html, body {
   min-height: 100%;
   height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
   height: 100%;
-  margin: 0 auto 0rem; /* the bottom margin is the negative value of the footer's height */
+  margin: 0 auto 0; /* the bottom margin is the negative value of the footer's height */
 }
 #footer, .push {
-  height: 0rem; /* .push must be the same height as #footer */
+  height: 0; /* .push must be the same height as #footer */
 }
 
 #footer {
