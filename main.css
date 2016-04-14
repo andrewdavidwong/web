@@ -1043,7 +1043,7 @@ svg {
 
 /* Make sure images don't rise above adjacent text. */
 @media (max-width: 1400px) { img { margin-top: 4rem; } }
-@media (max-width:  850px) { img { margin-top: 2rem; } }
+@media (max-width:  850px), (max-height: 600px) { img { margin-top: 2rem; } }
 
 
 /* Utilities
