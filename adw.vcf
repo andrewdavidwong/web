@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:4.0
+N:Wong;Andrew;David;;
+FN:Andrew David Wong
+URL:https://andrewdavidwong.com/
+PHOTO;MEDIATYPE=image/jpeg:https://andrewdavidwong.com/adw.jpg
+EMAIL:adw@andrewdavidwong.com
+EMAIL:adw@keybase.io
+EMAIL:adw@ucsd.edu
+KEY;MEDIATYPE=application/pgp-keys:https://andrewdavidwong.com/adw.asc
+IMPP:xmpp:adw@andrewdavidwong.com
+TEL;TYPE=voice,text;VALUE=uri:tel:+16196639664
+SOURCE:https://andrewdavidwong.com/adw.vcf
+REV:20160413T050851Z
+END:VCARD
+
