@@ -1222,7 +1222,7 @@ header {
 }
 
 .container {
-  margin-top: 22rem;
+  margin-top: 202px;
 }
 
 h1.name {
@@ -1335,7 +1335,7 @@ nav a#name, nav a#pull {
 
 @media (max-width: 1200px), (max-height: 800px) {
   .container {
-    margin-top: 19rem;
+    margin-top: 172px;
   }
   h1.name {
     margin: 2rem auto;
@@ -1351,7 +1351,7 @@ nav a#name, nav a#pull {
 
 @media (max-width: 1000px), (max-height: 800px) {
   .container {
-    margin-top: 16rem;
+    margin-top: 162px;
   }
   nav,
   nav ul {
@@ -1371,7 +1371,7 @@ nav a#name, nav a#pull {
 
 @media (max-width: 600px), (max-height: 600px) {
   .container {
-    margin-top: 14rem;
+    margin-top: 142px;
   }
   h1.name {
     margin: 1.5rem auto;
@@ -1525,7 +1525,7 @@ nav a#name, nav a#pull {
 /* Switch to a collapsible menu on especially narrow screens. */
 @media (max-width: 400px) {
   .container {
-    margin-top: 5rem;
+    margin-top: 40px;
   }
   h1.name {
     display: none;
@@ -1716,7 +1716,7 @@ nav a#name, nav a#pull {
   margin: 0;
 }
 html, body {
-  height: 76%;
+  height: 74%;
 }
 .wrapper {
   min-height: 100%;
@@ -1787,12 +1787,6 @@ html, body {
 }
 
 @media (max-width: 800px) {
-  .wrapper {
-    margin: 0 auto -29rem;
-  }
-  #footer, .push {
-    height: 29rem;
-  }
   .grow {
     width: 25%;
   }
@@ -1808,12 +1802,6 @@ html, body {
 }
 
 @media (max-width: 600px) {
-  .wrapper {
-    margin: 0 auto -25.5rem;
-  }
-  #footer, .push {
-    height: 25.5rem;
-  }
   .icon-footer {
     font-size: 2.8rem;
   }
@@ -1823,12 +1811,6 @@ html, body {
 }
 
 @media (max-width: 400px) {
-  .wrapper {
-    margin: 0 auto -24.5rem;
-  }
-  #footer, .push {
-    height: 24.5rem;
-  }
   .icon-footer {
     font-size: 2.6rem;
   }
