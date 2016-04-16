@@ -1046,7 +1046,7 @@ svg {
   .image {
     margin-top: 4rem;
   }
-  @media (max-height: 700px) {
+  @media (max-height: 600px) {
     .image {
       margin-top: 3rem;
     }
