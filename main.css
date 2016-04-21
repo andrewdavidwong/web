@@ -641,7 +641,7 @@ th {
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fa';
-    src: url('fonts/Font-Awesome/fa.svg?98374205#fa') format('svg');
+    src: url('fonts/Font-Awesome/fa.svg#fa') format('svg');
   }
 }
 */
