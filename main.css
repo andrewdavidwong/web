@@ -1754,7 +1754,7 @@ html, body {
 .grow {
   display: inline-block;
   position: relative;
-  width: 12.5%; /* Eight icons (1/8 = 12.5%) */
+  width: 11.1111111111%; /* Nine icons (1/9 = 11.1111111111%) */
 }
 .grow a {
   width: 100%;
@@ -1797,9 +1797,12 @@ html, body {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .grow {
-    width: 25%;
+    width: 20%;
+  }
+  .grow:first-child {
+    margin-left: 1px;
   }
   .grow a {
     padding: 2rem 0;
@@ -1809,6 +1812,7 @@ html, body {
   }
   #copyright {
     margin-top: 2rem;
+    margin-bottom: 4rem;
   }
 }
 
@@ -1821,12 +1825,18 @@ html, body {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .icon-footer {
     font-size: 2.6rem;
   }
+  .grow {
+    width: 33.333333333%;
+  }
+  .grow:first-child {
+    margin-left: 0;
+  }
   .grow a {
-    padding: 1.2rem 0;
+    padding: 2rem 0;
   }
 }
 
