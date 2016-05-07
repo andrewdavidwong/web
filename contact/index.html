@@ -53,14 +53,14 @@
   <link rel="profile" href="http://microformats.org/profile/hcard">
 </head>
 <body>
-  <div class="wrapper vcard h-card hcard-Andrew-David-Wong">
+  <div class="wrapper vcard h-card hcard-Andrew-David-Wong" itemscope itemtype="https://schema.org/Person">
     <!-- Header -->
     <header>
-      <a class="plain u-url url p-uid uid" href="https://andrewdavidwong.com/">
-        <h1 class="p-name name fn n">
-          <span class="p-given-name given-name">Andrew</span>
-          <span class="p-additional-name additional-name">David</span>
-          <span class="p-family-name family-name">Wong</span>
+      <a class="plain u-url url p-uid uid" itemprop="url" href="https://andrewdavidwong.com/">
+        <h1 class="p-name name fn n" itemprop="name">
+          <span class="p-given-name given-name" itemprop="givenName">Andrew</span>
+          <span class="p-additional-name additional-name" itemprop="additionalName">David</span>
+          <span class="p-family-name family-name" itemprop="familyName">Wong</span>
         </h1>
       </a>
       <!-- Navigation Bar -->
@@ -87,10 +87,10 @@
         <div class="four columns">
           <h3><span class="icon-header icon-at"></span>Email</h3>
           <ul class="plain">
-            <li><a class="u-email email" rel="me" href="mailto:adw@andrewdavidwong.com">adw@andrewdavidwong.com</a></li>
-            <li><a class="u-email email" rel="me" href="mailto:adw@qubes-os.org">adw@qubes-os.org</a></li>
-            <li><a class="u-email email" rel="me" href="mailto:adw@keybase.io">adw@keybase.io</a></li>
-            <li><a class="u-email email" rel="me" href="mailto:adw@ucsd.edu">adw@ucsd.edu</a></li>
+            <li><a class="u-email email" itemprop="email" rel="me" href="mailto:adw@andrewdavidwong.com">adw@andrewdavidwong.com</a></li>
+            <li><a class="u-email email" itemprop="email" rel="me" href="mailto:adw@qubes-os.org">adw@qubes-os.org</a></li>
+            <li><a class="u-email email" itemprop="email" rel="me" href="mailto:adw@keybase.io">adw@keybase.io</a></li>
+            <li><a class="u-email email" itemprop="email" rel="me" href="mailto:adw@ucsd.edu">adw@ucsd.edu</a></li>
           </ul>
           <h5><span class="icon-header icon-lock"></span><abbr title="Pretty Good Privacy">PGP</abbr></h5>
           <p>
@@ -114,7 +114,7 @@
             </svg><abbr title="Extensible Messaging and Presence Protocol (Jabber)">XMPP</abbr>
           </h3>
           <p>
-            <a class="u-url url" rel="me" href="xmpp:adw@andrewdavidwong.com">
+            <a class="u-url url" itemprop="sameAs" rel="me" href="xmpp:adw@andrewdavidwong.com">
               <abbr title="XMPP address (Jabber ID)">adw@andrewdavidwong.com</abbr>
             </a>
           </p>
@@ -126,13 +126,13 @@
           </p>
           <h3><span class="icon-header icon-video-camera"></span>Video</h3>
           <p>
-            Skype: <a class="u-url url" rel="me" href="skype:andrew.david.wong">andrew.david.wong</a>
+            Skype: <a class="u-url url" itemprop="sameAs" rel="me" href="skype:andrew.david.wong">andrew.david.wong</a>
           </p>
         </div>
         <div class="four columns">
           <h3><span class="icon-header icon-phone"></span>Telephone</h3>
           <p>
-            <a href="tel:+1-619-663-9664" class="p-tel tel">
+            <a href="tel:+1-619-663-9664" class="p-tel tel" itemprop="telephone">
               <span class="value">+1</span> (<span class="value">619</span>)
               <span class="value">663</span>&#8210;<abbr class="value" title="9664">WONG</abbr></a>
           </p>
@@ -140,16 +140,15 @@
           <h3><span class="icon-header icon-building-o"></span>Office</h3>
             <p><a href="http://maps.ucsd.edu/mapping/viewer/default.htm?mkey=1&lc=closed&km=open&rc=closed&zoom=5&X=0.4&Y=0.48&layers=None&background=2&label=0&overlays=Bldg-257%251&selectedTab=1">Humanities & Social Sciences</a> 8037</p>
           <h3><span class="icon-header icon-envelope-o"></span>Mail</h3>
-            <p class="h-adr p-adr adr">
+            <p class="h-adr p-adr adr" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
               <span class="p-org org organization-name">University of California, San Diego</span><br>
-              Andrew David Wong,
+              <span itemprop="name">Andrew David Wong</span>,
               <span class="p-organization-unit organization-unit">Philosophy Dept.</span><br>
-              <span class="p-street-address street-address">9500 Gilman Dr.</span>
-              <span class="p-extended-address extended-address"># 0119</span><br>
-              <span class="p-locality locality">La Jolla</span>,
-              <span class="p-region region">CA</span>,
-              <span class="p-country-name country-name">USA</span>
-              <span class="p-postal-code postal-code">92093-0119</span>
+              <span class="p-street-address street-address" itemprop="streetAddress">9500 Gilman Dr. # 0119</span><br>
+              <span class="p-locality locality" itemprop="addressLocality">La Jolla</span>,
+              <span class="p-region region" itemprop="addressRegion">CA</span>,
+              <span class="p-country-name country-name" itemprop="addressCountry">USA</span>
+              <span class="p-postal-code postal-code" itemprop="postalCode">92093-0119</span>
             </p>
         </div>
       </div>
@@ -161,31 +160,31 @@
   <div id="footer">
     <div class="grow">
       <a title="Facebook" href="https://www.facebook.com/andrewdavidwong.adw"
-         class="icon-footer icon-facebook p-url url" rel="me"></a>
+         class="icon-footer icon-facebook p-url url" itemprop="sameAs" rel="me"></a>
     </div><div class="grow">
       <a title="Twitter" href="https://twitter.com/andrewdavidwong"
-         class="icon-footer icon-twitter p-url url" rel="me"></a>
+         class="icon-footer icon-twitter p-url url" itemprop="sameAs" rel="me"></a>
     </div><div class="grow">
       <a title="Google+" href="https://plus.google.com/+andrewdavidwong"
-         class="icon-footer icon-google-plus p-url url" rel="me"></a>
+         class="icon-footer icon-google-plus p-url url" itemprop="sameAs" rel="me"></a>
     </div><div class="grow">
       <a title="LinkedIn" href="https://www.linkedin.com/in/andrewdwong"
-         class="icon-footer icon-linkedin p-url url" rel="me"></a>
+         class="icon-footer icon-linkedin p-url url" itemprop="sameAs" rel="me"></a>
     </div><div class="grow">
       <a title="Academia.edu" href="https://ucsd.academia.edu/wong"
-         class="icon-footer icon-font p-url url" rel="me"></a>
+         class="icon-footer icon-font p-url url" itemprop="sameAs" rel="me"></a>
     </div><div class="grow">
       <a title="GitHub" href="https://github.com/andrewdavidwong"
-         class="icon-footer icon-github p-url url" rel="me"></a>
+         class="icon-footer icon-github p-url url" itemprop="sameAs" rel="me"></a>
     </div><div class="grow">
       <a title="Coinbase" href="https://www.coinbase.com/adw"
-         class="icon-footer icon-bitcoin p-url url" rel="me"></a>
+         class="icon-footer icon-bitcoin p-url url" itemprop="sameAs" rel="me"></a>
     </div><div class="grow">
       <a title="Keybase" href="https://keybase.io/adw"
-         class="icon-footer icon-key p-url url" rel="me"></a>
+         class="icon-footer icon-key p-url url" itemprop="sameAs" rel="me"></a>
     </div><div class="grow">
       <a title="Blockchain ID" href="https://onename.com/adw"
-         class="icon-footer icon-chain p-url url" rel="me"></a>
+         class="icon-footer icon-chain p-url url" itemprop="sameAs" rel="me"></a>
     </div>
     <div id="copyright">
       Copyright &#169; 2012&#8211;<script type="text/javascript">document.write(new Date().getFullYear());</script><noscript>2016</noscript>
