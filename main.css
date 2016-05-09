@@ -1100,6 +1100,9 @@ svg {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-linux:before {
+    content: "\e906";
+}
 .icon-chain:before {
     content: "\e911";
 }
@@ -1114,9 +1117,6 @@ svg {
 }
 .icon-bitcoin:before {
     content: "\e905";
-}
-.icon-bitbucket:before {
-    content: "\e906";
 }
 .icon-github:before {
     content: "\e907";
@@ -1727,7 +1727,7 @@ nav a#name, nav a#pull {
   margin: 0;
 }
 html, body {
-  height: 77%;
+  height: 76%;
 }
 .wrapper {
   min-height: 100%;
@@ -1742,7 +1742,7 @@ html, body {
 #footer {
   text-align: center;
   width: 100%;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -1754,7 +1754,7 @@ html, body {
 .grow {
   display: inline-block;
   position: relative;
-  width: 11.1111111111%; /* Nine icons (1/9 = 11.1111111111%) */
+  width: 10%; /* Ten icons (1/10 = 10%) */
 }
 .grow a {
   width: 100%;
@@ -1786,23 +1786,23 @@ html, body {
 .grow:hover .icon-twitter,     .grow:active .icon-twitter     {color: #00aced;}
 .grow:hover .icon-google-plus, .grow:active .icon-google-plus {color: #dd4b39;}
 .grow:hover .icon-linkedin,    .grow:active .icon-linkedin    {color: #007bb6;}
-/* Leave Academia.edu black. */
+/* Leave Academia.edu, GitHub, and Tux black. */
 .grow:hover .icon-bitcoin,     .grow:active .icon-bitcoin     {color: #fab915;}
 .grow:hover .icon-key,         .grow:active .icon-key         {color: #ff4500;}
-.grow:hover .icon-chain,       .grow:active .icon-chain       {color: #597368;}
+/* Leave generic chain icon black. */
 
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
   .icon-footer {
     font-size: 3.2rem;
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 950px) {
   .grow {
     width: 20%;
   }
-  .grow:first-child {
-    margin-left: 1px;
+/*  .grow:first-child {
+    margin-left: 1px; */
   }
   .grow a {
     padding: 2rem 0;
@@ -1832,8 +1832,8 @@ html, body {
   .grow {
     width: 33.333333333%;
   }
-  .grow:first-child {
-    margin-left: 0;
+/*  .grow:first-child {
+    margin-left: 0; */
   }
   .grow a {
     padding: 2rem 0;
