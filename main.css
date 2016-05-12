@@ -1278,7 +1278,7 @@ nav ul {
   padding: 0;
   margin: 0 auto;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1600px;
   height: 80px;
   font-size: 0;
 }
@@ -1742,7 +1742,7 @@ html, body {
 #footer {
   text-align: center;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1050px;
   margin: 0 auto;
 }
 
@@ -1797,7 +1797,7 @@ html, body {
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 850px) {
   .grow {
     width: 20%;
   }
