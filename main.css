@@ -692,7 +692,7 @@ nav li {
   text-align: right;
 }
 .fpr {
-  font-family: monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 14px;
   display: inline-block;
 }
