@@ -1070,10 +1070,10 @@ svg {
   .image {
     margin-top: 4rem;
   }
-  @media (max-height: 600px) {
-    .image {
-      margin-top: 3rem;
-    }
+}
+@media (max-height: 600px) {
+  .image {
+    margin-top: 3rem;
   }
 }
 /* Make sure images aren't too wide on narrow screens. */
