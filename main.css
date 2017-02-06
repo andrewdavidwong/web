@@ -1220,6 +1220,10 @@ svg {
   margin-right: auto;
 }
 
+#copyright a {
+  color: #888a85;
+}
+
 
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
