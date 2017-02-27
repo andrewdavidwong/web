@@ -220,18 +220,17 @@ hr {
 /**
  * Contain overflow in all browsers.
  */
-
+/*
 pre {
   overflow: auto;
 }
-
+*/
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
 
 code,
 kbd,
-pre,
 samp {
   font-family: monospace, monospace;
   font-size: 1em;
@@ -691,15 +690,40 @@ nav li {
 .right {
   text-align: right;
 }
-.fpr {
+.fpr,
+.fpr pre {
   font-family: "Courier New", Courier, monospace;
-  font-size: 14px;
-  display: inline-block;
+  font-size: 1.4rem;
+  display: inline;
+  vertical-align: bottom;
+}
+.contact {
+  padding-top: 3rem;
+  padding-left: 3.3rem;
+}
+.contact ul li {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-size: 1.6rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+.contact .icon-fw {
+  margin-left: -3.3rem;
+  margin-right: 1rem;
+}
+.contact,
+.contact a {
+  font-size: 1.6rem;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  color: black;
 }
 .subtle {
   color: #666;
   margin-left: 0.5rem;
   display: inline-block;
+}
+.subtle a {
+  color: #666;
 }
 .greek {
   font-size: 1.8rem;
@@ -724,9 +748,6 @@ nav li {
   a.pdf-large {
     font-size: 2.2rem;
   }
-  .fpr {
-    font-size: 13px;
-  }
 }
 
 @media (max-width: 850px), (max-height: 600px) {
@@ -748,7 +769,7 @@ nav li {
     font-size: 2rem;
   }
   .fpr {
-    font-size: 12.5px;
+    font-size: 1.3rem;
   }
 }
 
@@ -769,9 +790,6 @@ nav li {
   }
   a.pdf-large {
     font-size: 1.8rem;
-  }
-  .fpr {
-    font-size: 12px;
   }
 }
 
@@ -846,7 +864,7 @@ a {
   color: #00008F;
   text-decoration: none;
 }
-a:hover, a:active {
+a:hover, a:active, a:hover .fpr {
   color: #0000EE;
   text-decoration: underline;
 }
@@ -960,12 +978,13 @@ code {
   border: 1px solid #E1E1E1;
   border-radius: 4px;
 }
+/*
 pre > code {
   display: block;
   padding: 1rem 1.5rem;
   white-space: pre;
 }
-
+*/
 
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -997,7 +1016,6 @@ select,
 fieldset {
   margin-bottom: 1.5rem;
 }
-pre,
 blockquote,
 dl,
 figure,
@@ -1025,17 +1043,20 @@ svg {
 .tall {
   margin-top: 4rem;
 }
-@media (max-width: 1400px) {
-  .tall {
-    margin-top: 0;
-  }
-}
 .empty-heading {
   height: 6rem;
 }
 @media (max-width: 1400px) {
+  .tall {
+    margin-top: 0;
+  }
+  .contact {
+    padding-top: 3.5rem;
+  }
+}
+@media (max-width: 1400px) {
   .empty-heading {
-    height: 0;
+    height: 0rem;
   }
 }
 
@@ -1180,6 +1201,11 @@ svg {
   font-size: 2.1rem;
   margin-right: 0.6rem;
 }
+.icon-fw {
+  width: 2rem;
+  text-align: center;
+  margin-right: 0.5rem;
+}
 
 @media (max-width: 1000px) {
   .icon-main {
@@ -1312,7 +1338,7 @@ nav li a {
   text-align: center;
   text-decoration: none;
   line-height: 80px;
-  padding: 0 4.5%;
+  padding: 0 7.777777777%;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -1599,13 +1625,14 @@ nav a#name, nav a#pull {
   nav li a:hover {
     background-color: #f2f2f2;
   }
-  nav li:first-child a,
-  header.smaller nav li:first-child a {
-    width: 100%;
+  nav li:nth-child(1) a,
+  nav li:nth-child(2) a,
+  header.smaller nav li a:nth-child(1),
+  header.smaller nav li a:nth-child(2) {
     border-top: 1px solid #d9d9d9;
   }
-  nav li:nth-child(even) a,
-  header.smaller nav li:nth-child(even) a {
+  nav li:nth-child(odd) a,
+  header.smaller nav li:nth-child(odd) a {
     border-right: 1px solid #d9d9d9;
   }
   nav a#name {
@@ -1772,7 +1799,7 @@ html, body {
 .grow {
   display: inline-block;
   position: relative;
-  width: 10%; /* Ten icons (1/10 = 10%) */
+  width: 14.2%; /* Ten icons (1/7 = 14.2%) */
 }
 .grow a {
   width: 100%;
