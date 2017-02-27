@@ -1388,6 +1388,13 @@ nav a#name, nav a#pull {
   color: #000;
 }
 
+@media (max-width: 1400px) {
+  nav li a,
+  header.smaller nav li a {
+    padding: 0 6.777777777%;
+  }
+}
+
 @media (max-width: 1200px), (max-height: 800px) {
   .container {
     margin-top: 172px;
@@ -1401,6 +1408,10 @@ nav a#name, nav a#pull {
   }
   nav li a {
     line-height: 70px;
+  }
+  nav li a,
+  header.smaller nav li a {
+    padding: 0 5.777777777%;
   }
 }
 
@@ -1420,7 +1431,7 @@ nav a#name, nav a#pull {
 @media (max-width: 850px) {
   nav li a,
   header.smaller nav li a {
-    padding: 0 3%;
+    padding: 0 6.777777777%;
   }
 }
 
@@ -1430,8 +1441,6 @@ nav a#name, nav a#pull {
   }
   h1.name {
     margin: 1.5rem auto;
-  }
-  header.smaller h1.name {
     font-size: 2.8rem;
     height: 50px;
     line-height: 50px;
@@ -1726,17 +1735,10 @@ nav a#name, nav a#pull {
   }
 }
 
-@media (max-width: 600px) {
-  nav li a,
-  header.smaller nav li a {
-    padding: 0 1.4rem;
-  }
-}
-
 @media (max-width: 500px) {
   nav li a,
   header.smaller nav li a {
-    padding: 0 1rem;
+    padding: 0 2rem;
   }
 }
 
