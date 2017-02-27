@@ -2,15 +2,21 @@ BEGIN:VCARD
 VERSION:4.0
 N:Wong;Andrew;David;;
 FN:Andrew David Wong
-URL:https://andrewdavidwong.com/
+URL:https://andrewdavidwong.com
 PHOTO;MEDIATYPE=image/jpeg:https://andrewdavidwong.com/adw.jpg
 EMAIL:adw@andrewdavidwong.com
-EMAIL:adw@keybase.io
+EMAIL:adw@invisiblethingslab.com
+EMAIL:adw@qubes-os.org
 EMAIL:adw@ucsd.edu
-KEY;MEDIATYPE=application/pgp-keys:https://andrewdavidwong.com/adw.asc
 IMPP:xmpp:adw@andrewdavidwong.com
-TEL;TYPE=voice,text;VALUE=uri:tel:+16196639664
+TEL;TYPE=voice,text;VALUE=uri:tel:+1-619-663-9664
+ADR;LABEL="Andrew David Wong\nDepartment of Philosophy\n9500 Gilman Dr. # 0119\nLa Jolla, CA, USA 92093-0119":;;9500 Gilman Dr. # 0119;La Jolla;CA;92093-0119;USA
+KEY;MEDIATYPE=application/pgp-keys:https://andrewdavidwong.com/adw.asc
+TITLE:Doctoral Candidate
+ORG:University of California, San Diego
+TITLE:Community Manager
+ORG:The Qubes OS Project
 SOURCE:https://andrewdavidwong.com/adw.vcf
-REV:20160413T050851Z
+REV:20170227T000000Z
 END:VCARD
 
