@@ -710,9 +710,10 @@ nav li {
 .contact,
 .contact a,
 .contact li {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0.3rem;
   font-family: "Source Sans Pro", Arial, sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: black;
 }
 .subtle {
@@ -777,7 +778,7 @@ nav li {
   .contact li,
   .contact a,
   a[type="application/pdf"] {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
   a.pdf-large {
     font-size: 1.8rem;
