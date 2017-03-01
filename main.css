@@ -626,14 +626,14 @@ th {
   font-family: 'Inconsolata';
   font-weight: 400;
   font-style: normal;
-  src: url('/fonts/Inconsolata-regular/Inconsolata-regular.eot');
-  src: url('/fonts/Inconsolata-regular/Inconsolata-regular.eot?#iefix') format('embedded-opentype'),
+  src: url('fonts/Inconsolata-regular/Inconsolata-regular.eot');
+  src: url('fonts/Inconsolata-regular/Inconsolata-regular.eot?#iefix') format('embedded-opentype'),
        local('Inconsolata Regular'),
        local('Inconsolata-regular'),
-       url('/fonts/Inconsolata-regular/Inconsolata-regular.woff2') format('woff2'),
-       url('/fonts/Inconsolata-regular/Inconsolata-regular.woff') format('woff'),
-       url('/fonts/Inconsolata-regular/Inconsolata-regular.ttf') format('truetype'),
-       url('/fonts/Inconsolata-regular/Inconsolata-regular.svg#Inconsolata') format('svg');
+       url('fonts/Inconsolata-regular/Inconsolata-regular.woff2') format('woff2'),
+       url('fonts/Inconsolata-regular/Inconsolata-regular.woff') format('woff'),
+       url('fonts/Inconsolata-regular/Inconsolata-regular.ttf') format('truetype'),
+       url('fonts/Inconsolata-regular/Inconsolata-regular.svg#Inconsolata') format('svg');
 }
 
 /* Font Awesome icons (subset) */
@@ -679,10 +679,7 @@ body {
 body.sans-serif,
 li.sans-serif,
 .url,
-.u-url,
-a[href^="mailto:"],
-a[href^="xmpp:"],
-a[href^="skype:"] {
+.u-url {
   font-size: 1.8rem;
   font-family: "Source Sans Pro", Arial, sans-serif;
 }
@@ -704,18 +701,18 @@ nav li {
 .right {
   text-align: right;
 }
-.fpr,
-.fpr pre {
+.fpr {
   font-family: "Inconsolata", Courier, monospace;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   display: inline;
   vertical-align: bottom;
 }
+.contact,
 .contact a,
 .contact li {
   margin: 0;
   font-family: "Source Sans Pro", Arial, sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: black;
 }
 .subtle {
@@ -739,11 +736,8 @@ nav li {
   li.sans-serif,
   .url,
   .u-url,
-  a[type="application/pdf"],
-  a[href^="mailto:"],
-  a[href^="xmpp:"],
-  a[href^="skype:"],
-  .greek {
+  .greek,
+  a[type="application/pdf"] {
     font-size: 1.7rem;
   }
   a.pdf-large {
@@ -759,18 +753,15 @@ nav li {
   li.sans-serif,
   .url,
   .u-url,
-  a[type="application/pdf"],
-  a[href^="mailto:"],
-  a[href^="xmpp:"],
-  a[href^="skype:"],
-  .greek {
+  .greek,
+  a[type="application/pdf"] {
     font-size: 1.65rem;
   }
   a.pdf-large {
     font-size: 2rem;
   }
   .fpr {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -782,11 +773,10 @@ nav li {
   li.sans-serif,
   .url,
   .u-url,
-  a[type="application/pdf"],
-  a[href^="mailto:"],
-  a[href^="xmpp:"],
-  a[href^="skype:"],
-  .greek {
+  .greek,
+  .contact li,
+  .contact a,
+  a[type="application/pdf"] {
     font-size: 1.6rem;
   }
   a.pdf-large {
