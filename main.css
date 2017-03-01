@@ -1089,7 +1089,7 @@ svg {
 /* Make sure images aren't too wide on narrow screens. */
 @media (max-width: 960px) {
   .image {
-    dispay: block
+    dispay: block;
     margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
