@@ -9,6 +9,11 @@ form {
     margin-bottom: 5px;
     padding: 0;
     border-width: 0;
+
+    input {
+      font-size: $type-size-6
+    }
+
   }
 
   legend {
@@ -53,6 +58,7 @@ select,
 textarea {
   box-sizing: border-box;
   font-family: $sans-serif;
+  font-size: $type-size-6;
 }
 
 label {
