@@ -12,14 +12,16 @@
   clear: both;
   height: auto;
   /* sticky footer fix end */
-  margin-top: 3em;
-  color: mix(#fff, $gray, 25%);
+  /* margin-top: 3em; */ /* prevent sidebar scrolling */
+  color: $gray;
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
-  background-color: $lighter-gray;
-  border-top: 1px solid $light-gray;
+
+  font-family: $sans-serif;
+  font-size: $type-size-7;
+  text-align: center;
 
   footer {
     @include container;
@@ -37,6 +39,7 @@
     text-decoration: none;
 
     &:hover {
+      color: #000;
       text-decoration: underline;
     }
   }
@@ -47,9 +50,9 @@
 }
 
 .page__footer-copyright {
-  font-family: $global-font-family;
-  font-size: $type-size-7;
+
 }
+
 
 .page__footer-follow {
 
