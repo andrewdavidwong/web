@@ -20,7 +20,7 @@
 
 .page {
   @include breakpoint($large) {
-    @include span(10 of 12 last);
+    @include span(8.8 of 12 last);
     @include prefix(0.5 of 12);
     @include suffix(2 of 12);
   }
@@ -194,6 +194,35 @@
   a {
     color: #fff;
     text-decoration: none;
+  }
+}
+
+/*
+   Page Revision History
+   ========================================================================== */
+
+.page__revision {
+  margin-top: 2em;
+  border-top: 1px solid $border-color;
+  color: $dark-gray;
+
+  h3, table {
+  font-family: $source-sans-pro;
+  font-size: $type-size-7;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      color: $link-color-hover;
+    }  
   }
 }
 
