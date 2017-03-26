@@ -10,7 +10,7 @@
   }
 
   @include breakpoint($large) {
-    @include span(10 of 12 last);
+    @include span(8.8 of 12 last);
     @include prefix(0.5 of 12);
   }
 
@@ -34,7 +34,7 @@
 
 .archive__item-title {
   margin-bottom: 0.25em;
-  font-family: $sans-serif-narrow;
+  font-family: $crimson;
 
   a + a {
     opacity: 0.5;
