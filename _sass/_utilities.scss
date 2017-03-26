@@ -13,6 +13,11 @@
   visibility: hidden;
 }
 
+.plain {
+  list-style: none;
+  padding-left: 0;
+}
+
 /* for preloading images */
 
 .load {
