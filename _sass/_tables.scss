@@ -35,4 +35,9 @@ td {
 
 tr, td, th {
   vertical-align: middle;
+
+  .fit {
+    max-width: 100%;
+    white-space: nowrap;
+  }
 }
