@@ -1,0 +1,37 @@
+<div class="page__revision">
+  <h3>Revision History</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Blockchain Timestamp
+          <a href="{{ site.url }}/blockchain-timestamps" title="Blockchain Timestamps">
+            <span class="fa fa-question-circle" title="What is a blockchain timestamp?"></span>
+          </a>
+        </th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+  {% for entry in site.data.revisions %}
+    {% if entry.title == page.title %}
+      {% for rev in entry.revisions %}
+      <tr>
+        <td class="fit">
+          <a href="{{ site.url }}{{ site.revision_path }}{{ rev.filename }}" title="Revision dated {{ rev.date }}">{{ rev.date }}</a>
+        </td>
+        <td>
+          <a href="{{ site.blockchain_uri }}{{ rev.btc-address }}" title="Click to view this Bitcoin address in an external blockchain explorer.">
+            <span class="code">{{ rev.btc-address }}</span>
+          </a>
+        </td>
+        <td>
+          <a href="{{ site.url }}{{ site.revision_path }}{{ rev.filename }}" title="Click to view full text.">{{ rev.description }}</a>
+        </td>
+      </tr>
+      {% endfor %}
+    {% endif %}
+    </tbody>
+  {% endfor %}
+  </table>
+</div>
