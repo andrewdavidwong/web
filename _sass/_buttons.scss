@@ -19,7 +19,6 @@
   text-decoration: none;
   background-color: $primary-color;
   border: 0 !important;
-  border-radius: $border-radius;
   cursor: pointer;
 
   &:hover {
@@ -125,10 +124,10 @@
 
   @each $socialnetwork, $color in $social {
     &--#{$socialnetwork} {
-      background-color: $color;
+      background-color: #fff;
 
       &:hover {
-        background-color: mix(#000, $color, 20%);
+        background-color: $color;
       }
     }
   }
