@@ -32,6 +32,8 @@ staticman:
         format            : "iso8601"
 atom_feed:
   path                    : # blank (default) uses feed.xml
+revision_path             : "/revisions/"
+blockchain_uri            : "https://blockchain.info/address/" # for blockchain timestamps
 
 # SEO
 bing_site_verification    :
@@ -57,8 +59,6 @@ social:
 author:
   name                    : "Andrew David Wong"
   avatar                  : "/adw.jpg"
-  uri                     : "https://andrewdavidwong.com"
-  bio                     : CEO of Invisible Things Lab and Community Manager of the Qubes OS Project.
   email                   : adw@andrewdavidwong.com
   email                   : adw@invisiblethingslab.com
   email                   : adw@qubes-os.org
@@ -164,15 +164,25 @@ tag_archive:
 # HTML Compression
 compress_html:
   clippings               : all
-  comments                : ["<!-- ", " -->"]
+  comments                : ["<!--", "-->"]
   endings                 : all
   blanklines              : false
   startings               : [html, head, body]
-  ignore:
-    envs                  : development
+
 
 # Defaults
 defaults:
+  # _pages
+  - scope:
+      path                : ""
+      type                : pages
+    values:
+      layout              : single
+      author_profile      : true
+      read_time           : false
+      comments            : false
+      share               : false
+      related             : false
   # _posts
   - scope:
       path                : ""
