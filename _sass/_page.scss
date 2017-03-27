@@ -251,8 +251,8 @@
 
 .page__share-title {
   margin-bottom: 10px;
-  font-size: $type-size-6;
-  text-transform: uppercase;
+  font-size: $type-size-5;
+  color: $darker-gray;
 }
 
 
@@ -264,7 +264,7 @@
   margin-top: 2em;
   color: mix(#fff, $gray, 25%);
   font-family: $sans-serif;
-  font-size: $type-size-6;
+  font-size: $type-size-5;
 
   p {
     margin: 0;
@@ -277,8 +277,7 @@
 
 .page__meta-title {
   margin-bottom: 10px;
-  font-size: $type-size-6;
-  text-transform: uppercase;
+  font-size: $type-size-5;
 }
 
 
@@ -324,9 +323,9 @@
   margin-top: 2rem;
   margin-bottom: 10px;
   padding-top: 2rem;
-  font-size: $type-size-6;
+  font-size: $type-size-5;
+  color: $darker-gray;
   border-top: 1px solid $border-color;
-  text-transform: uppercase;
 }
 
 .page__comments-form {
@@ -432,6 +431,5 @@
 
 .page__related-title {
   margin-bottom: 10px;
-  font-size: $type-size-6;
-  text-transform: uppercase;
+  font-size: $type-size-5;
 }
