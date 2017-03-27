@@ -11,17 +11,13 @@
           transform: translate3d(0, 0 , 0);
 
   @include clearfix();
-  margin-bottom: 1em;
+  margin-bottom: 2em;
+  border-bottom: 1px solid $border-color;
 
   @include breakpoint($large) {
+    margin-bottom: -3.5em;
+    border-bottom: 0;
     @include span(3.2 of 12);
-    opacity: 0.75;
-    -webkit-transition: opacity 0.5s ease-out;
-            transition: opacity 0.5s ease-out;
-
-    &:hover {
-      opacity: 1;
-    }
   }
 
   @include breakpoint($x-large) {
@@ -89,6 +85,7 @@
   vertical-align: top;
   padding-left: 15px;
   padding-right: 25px;
+  padding-bottom: 2em;
   line-height: 1;
 
   @include breakpoint($large) {
@@ -96,6 +93,7 @@
     width: 100%;
     padding-left: 0;
     padding-right: 0;
+    padding-bottom: 0;
   }
 }
 
@@ -124,19 +122,19 @@
   ul, li {
     font-family: $crimson;
     list-style-type: none;
-  }
 
-  a {
-    color: $link-color;
-    text-decoration: none;
-
-    &:hover {
-      color: $link-color-hover;
-      text-decoration: underline;
-    }
-
-    &:visited {
+    a {
       color: $link-color;
+      text-decoration: none;
+
+      &:hover {
+        color: $link-color-hover;
+        text-decoration: underline;
+      }
+
+      &:visited {
+        color: $link-color;
+      }
     }
   }
 
@@ -242,12 +240,17 @@
     padding-right: 5px;
     padding-top: 2px;
     padding-bottom: 2px;
-    color: inherit;
+    color: #000;
     font-size: $type-size-5;
     text-decoration: none;
 
     &:hover {
+      color: $link-color-hover;
       text-decoration: underline;
+    }
+
+    &:visited {
+      color: #000;
     }
   }
 
