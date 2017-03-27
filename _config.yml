@@ -6,9 +6,9 @@ name                      : "Andrew David Wong"
 description               : "Andrew David Wong is the CEO of Invisible Things Lab and the Community Manager of the Qubes OS Project."
 url                       : "https://andrewdavidwong.com"
 baseurl                   :
-repository                : "andrewdwong/andrewdavidwong.com"
-project_repo_path         : "https://github.com/andrewdwong"
-project_repo_site         : "/andrewdavidwong.com"
+repository                : "andrewdavidwong/web"
+project_repo_path         : "https://github.com/andrewdavidwong"
+project_repo_site         : "/web"
 teaser                    : "/adw.jpg"
 breadcrumbs               : false
 words_per_minute          : 200
