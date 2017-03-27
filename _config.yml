@@ -10,14 +10,14 @@ repository                : "andrewdwong/andrewdavidwong.com"
 project_repo_path         : "https://github.com/andrewdwong"
 project_repo_site         : "/andrewdavidwong.com"
 teaser                    : "/adw.jpg"
-# breadcrumbs             : false # true, false (default)
+breadcrumbs               : false
 words_per_minute          : 200
 comments:
   provider                : "staticman"
 staticman:
   allowedFields           : ['name', 'email', 'url', 'message']
   branch                  : "master"
-  commitMessage           : "Add new comment"
+  commitMessage           : "Add a new comment"
   filename                : comment-{@timestamp}
   format                  : "yml"
   moderation              : true
