@@ -2,12 +2,25 @@
    FOOTER
    ========================================================================== */
 
-footer {
+.page__footer {
+  @include full();
+  @include clearfix;
+  /* sticky footer fix start */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  clear: both;
+  height: auto;
+  /* sticky footer fix end */
+  padding: 3em 1em;
+  color: $dark-gray;
+  -webkit-animation: intro 0.3s both;
+          animation: intro 0.3s both;
+  -webkit-animation-delay: 0.45s;
+          animation-delay: 0.45s;
   font-family: sans-serif;
   font-size: $type-size-7;
   text-align: center;
-  color: $dark-gray;
-  padding: 1em;
 
   a {
     color: inherit;
