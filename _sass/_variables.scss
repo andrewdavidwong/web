@@ -13,7 +13,7 @@ $paragraph-indent           : false !default; // true, false (default)
 $indent-var                 : 1.3em !default;
 
 /* system typefaces */
-$serif                      : Georgia, Times, serif !default;
+$serif                      : "Crimson", Georgia, Times, serif !default;
 $sans-serif                 : "Source Sans Pro", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace                  : "Inconsolata", Monaco, Consolas, "Lucida Console", monospace !default;
 
@@ -21,7 +21,7 @@ $monospace                  : "Inconsolata", Monaco, Consolas, "Lucida Console",
 $sans-serif-narrow          : $sans-serif !default;
 
 /* serif typefaces */
-$crimson                    : "Crimson Text", serif !default;
+$crimson                    : "Crimson", serif !default;
 $georgia                    : Georgia, serif !default;
 $times                      : Times, serif !default;
 $bodoni                     : "Bodoni MT", serif !default;
