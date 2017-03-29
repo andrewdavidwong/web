@@ -12,59 +12,47 @@
    ========================================================================== */
 
 @font-face {
-  font-family: 'Crimson Text';
-  font-weight: 400;
-  font-style: normal;
-  src: url('../fonts/Crimson-Text-regular/Crimson-Text-regular.eot');
-  src: url('../fonts/Crimson-Text-regular/Crimson-Text-regular.eot?#iefix') format('embedded-opentype'),
-       local('Crimson Text'),
-       local('Crimson-Text-regular'),
-       url('../fonts/Crimson-Text-regular/Crimson-Text-regular.woff2') format('woff2'),
-       url('../fonts/Crimson-Text-regular/Crimson-Text-regular.woff') format('woff'),
-       url('../fonts/Crimson-Text-regular/Crimson-Text-regular.ttf') format('truetype'),
-       url('../fonts/Crimson-Text-regular/Crimson-Text-regular.svg#CrimsonText') format('svg');
+    font-family: 'Crimson';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/Crimson/crimson-roman-webfont.eot');
+    src: url('../fonts/Crimson/crimson-roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Crimson/crimson-roman-webfont.woff2') format('woff2'),
+         url('../fonts/Crimson/crimson-roman-webfont.woff') format('woff'),
+         url('../fonts/Crimson/crimson-roman-webfont.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Crimson Text';
-  font-weight: 400;
-  font-style: italic;
-  src: url('../fonts/Crimson-Text-italic/Crimson-Text-italic.eot');
-  src: url('../fonts/Crimson-Text-italic/Crimson-Text-italic.eot?#iefix') format('embedded-opentype'),
-       local('Crimson Text Italic'),
-       local('Crimson-Text-italic'),
-       url('../fonts/Crimson-Text-italic/Crimson-Text-italic.woff2') format('woff2'),
-       url('../fonts/Crimson-Text-italic/Crimson-Text-italic.woff') format('woff'),
-       url('../fonts/Crimson-Text-italic/Crimson-Text-italic.ttf') format('truetype'),
-       url('../fonts/Crimson-Text-italic/Crimson-Text-italic.svg#CrimsonText') format('svg');
+    font-family: 'Crimson';
+    font-weight: normal;
+    font-style: italic;
+    src: url('../fonts/Crimson/crimson-italic-webfont.eot');
+    src: url('../fonts/Crimson/crimson-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Crimson/crimson-italic-webfont.woff2') format('woff2'),
+         url('../fonts/Crimson/crimson-italic-webfont.woff') format('woff'),
+         url('../fonts/Crimson/crimson-italic-webfont.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Crimson Text';
-  font-weight: 700;
-  font-style: normal;
-  src: url('../fonts/Crimson-Text-bold/Crimson-Text-bold.eot');
-  src: url('../fonts/Crimson-Text-bold/Crimson-Text-bold.eot?#iefix') format('embedded-opentype'),
-       local('Crimson Text Bold'),
-       local('Crimson-Text-bold'),
-       url('../fonts/Crimson-Text-bold/Crimson-Text-bold.woff2') format('woff2'),
-       url('../fonts/Crimson-Text-bold/Crimson-Text-bold.woff') format('woff'),
-       url('../fonts/Crimson-Text-bold/Crimson-Text-bold.ttf') format('truetype'),
-       url('../fonts/Crimson-Text-bold/Crimson-Text-bold.svg#CrimsonText') format('svg');
+    font-family: 'Crimson';
+    font-weight: bold;
+    font-style: normal;
+    src: url('../fonts/Crimson/crimson-bold-webfont.eot');
+    src: url('../fonts/Crimson/crimson-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Crimson/crimson-bold-webfont.woff2') format('woff2'),
+         url('../fonts/Crimson/crimson-bold-webfont.woff') format('woff'),
+         url('../fonts/Crimson/crimson-bold-webfont.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Crimson Text';
-  font-weight: 700;
-  font-style: italic;
-  src: url('../fonts/Crimson-Text-bold-italic/Crimson-Text-bold-italic.eot');
-  src: url('../fonts/Crimson-Text-bold-italic/Crimson-Text-bold-italic.eot?#iefix') format('embedded-opentype'),
-       local('Crimson Text Bold Italic'),
-       local('Crimson-Text-bold-italic'),
-       url('../fonts/Crimson-Text-bold-italic/Crimson-Text-bold-italic.woff2') format('woff2'),
-       url('../fonts/Crimson-Text-bold-italic/Crimson-Text-bold-italic.woff') format('woff'),
-       url('../fonts/Crimson-Text-bold-italic/Crimson-Text-bold-italic.ttf') format('truetype'),
-       url('../fonts/Crimson-Text-bold-italic/Crimson-Text-bold-italic.svg#CrimsonText') format('svg');
+    font-family: 'Crimson';
+    font-weight: bold;
+    font-style: italic;
+    src: url('../fonts/Crimson/crimson-bolditalic-webfont.eot');
+    src: url('../fonts/Crimson/crimson-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Crimson/crimson-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/Crimson/crimson-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/Crimson/crimson-bolditalic-webfont.ttf') format('truetype');
 }
 
 @font-face {
