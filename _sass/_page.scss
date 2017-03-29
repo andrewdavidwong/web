@@ -38,11 +38,9 @@
 
 .page__title {
   margin-top: 0;
-  line-height: 1;
-
-  & + .page__meta {
-    margin-top: -0.5em;
-  }
+  padding-bottom: 0.25em;
+  border-bottom: 1px solid $border-color;
+  margin-bottom: 0.5em;
 }
 
 .page__lead {
@@ -53,8 +51,9 @@
 .page__content {
 
   h2 {
-    padding-bottom: 0.5em;
+    padding-bottom: 0.25em;
     border-bottom: 1px solid $border-color;
+    margin-bottom: 0.5em;
   }
 
   p, li, dl {
@@ -231,9 +230,7 @@
    ========================================================================== */
 
 .page__share {
-  margin-top: 2em;
-  padding-top: 1em;
-  border-top: 1px solid $border-color;
+  margin-bottom: 2em;
 
   @include breakpoint(max-width $small) {
     .btn span {
@@ -250,9 +247,12 @@
 }
 
 .page__share-title {
+  margin-top: 0;
   margin-bottom: 10px;
+  padding-top: 2rem;
   font-size: $type-size-5;
   color: $darker-gray;
+  border-top: 1px solid $border-color;
 }
 
 
@@ -320,7 +320,7 @@
 }
 
 .page__comments-title {
-  margin-top: 2rem;
+  margin-top: 0;
   margin-bottom: 10px;
   padding-top: 2rem;
   font-size: $type-size-5;
