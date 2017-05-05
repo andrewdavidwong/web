@@ -478,12 +478,14 @@ th {
   .container {
     width: 85%;
     padding: 0;
+    margin-top: 50px;
   }
 }
 
 @media (min-width: 960px) {
   .container {
     width: 80%;
+    margin-top: 100px;
   }
   .column,
   .columns {
@@ -547,8 +549,8 @@ th {
 
 }
 
-@media (min-width: 1200px) { .container { max-width: 1100px; } }
-@media (min-width: 1500px) { .container { max-width: 1200px; } }
+@media (min-width: 1200px) { .container { max-width: 1100px; margin-top: 150px; } }
+@media (min-width: 1500px) { .container { max-width: 1200px; margin-top: 200px; } }
 
 /* Fonts
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -1166,14 +1168,6 @@ svg {
   content: "";
   display: table;
   clear: both;
-}
-
-
-/* Container
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.container {
-  margin-top: 202px;
 }
 
 
