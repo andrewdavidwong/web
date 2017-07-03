@@ -459,7 +459,10 @@ th {
   position: relative;
   width: 100%;
   max-width: 960px;
-  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0 20px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -478,14 +481,18 @@ th {
   .container {
     width: 85%;
     padding: 0;
-    margin-top: 50px;
+  }
+}
+
+@media (min-width: 770px) {
+  .shift {
+    text-indent: 100px;
   }
 }
 
 @media (min-width: 960px) {
   .container {
     width: 80%;
-    margin-top: 100px;
   }
   .column,
   .columns {
@@ -495,6 +502,10 @@ th {
   .columns:first-child {
     margin-left: 0;
   }
+  .shift {
+    text-indent: 0;
+  }
+
 
   .one.column,
   .one.columns                    { width: 4.66666666667%; }
@@ -547,10 +558,123 @@ th {
   .offset-by-one-half.column,
   .offset-by-one-half.columns     { margin-left: 52%; }
 
+  @media (min-height: 500px) {
+    .container {
+      margin-top: 25px;
+    }
+  }
+  @media (min-height: 650px) {
+    .container {
+      margin-top: 50px;
+    }
+  }
+  @media (min-height: 800px) {
+    .container {
+      margin-top: 100px;
+    }
+  }
+  @media (min-height: 850px) {
+    .container {
+      margin-top: 125px;
+    }
+  }
+  @media (min-height: 900px) {
+    .container {
+      margin-top: 150px;
+    }
+  }
+  @media (min-height: 950px) {
+    .container {
+      margin-top: 175px;
+    }
+  }
+  @media (min-height: 1000px) {
+    .container {
+      margin-top: 200px;
+    }
+  }
 }
 
-@media (min-width: 1200px) { .container { max-width: 1100px; margin-top: 150px; } }
-@media (min-width: 1500px) { .container { max-width: 1200px; margin-top: 200px; } }
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1100px;
+  }
+  @media (min-height: 500px) {
+    .container {
+      margin-top: 25px;
+    }
+  }
+  @media (min-height: 650px) {
+    .container {
+      margin-top: 50px;
+    }
+  }
+  @media (min-height: 800px) {
+    .container {
+      margin-top: 100px;
+    }
+  }
+  @media (min-height: 850px) {
+    .container {
+      margin-top: 125px;
+    }
+  }
+  @media (min-height: 900px) {
+    .container {
+      margin-top: 150px;
+    }
+  }
+  @media (min-height: 950px) {
+    .container {
+      margin-top: 175px;
+    }
+  }
+  @media (min-height: 1000px) {
+    .container {
+      margin-top: 200px;
+    }
+  }
+}
+@media (min-width: 1500px) {
+  .container {
+    max-width: 1200px;
+  }
+@media (min-height: 500px) {
+    .container {
+      margin-top: 25px;
+    }
+  }
+  @media (min-height: 650px) {
+    .container {
+      margin-top: 50px;
+    }
+  }
+  @media (min-height: 800px) {
+    .container {
+      margin-top: 100px;
+    }
+  }
+  @media (min-height: 850px) {
+    .container {
+      margin-top: 125px;
+    }
+  }
+  @media (min-height: 900px) {
+    .container {
+      margin-top: 150px;
+    }
+  }
+  @media (min-height: 950px) {
+    .container {
+      margin-top: 175px;
+    }
+  }
+  @media (min-height: 1000px) {
+    .container {
+      margin-top: 200px;
+    }
+  }
+}
 
 /* Fonts
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -722,6 +846,7 @@ nav li {
   color: #666;
   margin-left: 0.5rem;
   display: inline-block;
+  text-indent: 0;
 }
 .subtle a {
   color: #666;
@@ -995,28 +1120,43 @@ svg {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /* Make sure images don't rise above adjacent text. */
-@media (max-width: 1400px) {
+.image {
+  margin-top: 2rem;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 85%;
+  max-height: 300px;
+}
+@media (min-height: 600px) {
+  .image {
+    margin-top: 4rem;
+  }
+}
+@media (min-width: 1200px) {
   .image {
     margin-top: 5rem;
   }
 }
-@media (max-height: 600px) {
+@media (min-width: 1500px) {
   .image {
     margin-top: 3rem;
   }
 }
+
 /* Make sure images aren't too wide on narrow screens. */
-@media (max-width: 960px) {
+
+@media (min-width: 960px) {
   .image {
-    margin-top: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 350px;
+    max-width: 100%;
   }
 }
-@media (max-width: 400px) {
+
+/* Make sure images aren't too tall on short screens. */
+
+@media (min-height: 800px) {
   .image {
-    max-width: 85%;
+    max-height: 400px;
   }
 }
 
