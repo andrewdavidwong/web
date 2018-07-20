@@ -51,6 +51,29 @@
   <meta name="theme-color" content="#ffffff">
   <!-- hCard Profile -->
   <link rel="profile" href="http://microformats.org/profile/hcard">
+  <!-- Cookie Consent -->
+  <link rel="stylesheet" type="text/css" href="https://andrewdavidwong.com/cookieconsent.min.css" />
+  <script src="https://andrewdavidwong.com/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#000",
+        "text": "#ffffff"
+      },
+      "button": {
+        "background": "transparent",
+        "text": "#ffffff",
+        "border": "#ffffff"
+      }
+    },
+    "content": {
+      "message": "This website uses cookies. By proceeding, you agree to our <a target='_blank' href='https://andrewdavidwong.com/privacy/'>Privacy Policy</a> and <a target='_blank' href='https://andrewdavidwong.com/terms/'>Terms of Use</a>.",
+      "dismiss": "Very well"
+    }
+  })});
+  </script>
 </head>
 <body class="vcard h-card hcard-Andrew-David-Wong" itemscope itemtype="https://schema.org/Person">
   <div class="wrapper">
@@ -153,13 +176,16 @@
          class="icon-footer icon-chain p-url url" itemprop="sameAs" rel="me"></a>
     </div>
     <div id="copyright">
-      Copyright &#169; 2012&#8211;<script type="text/javascript">document.write(new Date().getFullYear());</script><noscript>2017</noscript>
+      Copyright &#169; 2012&#8211;<script type="text/javascript">document.write(new Date().getFullYear());</script><noscript>2018</noscript>
       Andrew David Wong. All rights reserved.<br>
       <a title="OpenPGP Public Key" rel="pgpkey" type="application/pgp-keys" href="https://andrewdavidwong.com/adw.asc">PGP Key</a> |
       <a title="Other OpenPGP Fingerprints" href="https://andrewdavidwong.com/fingerprints.txt">Fingerprints</a> |
       <a title="vCard" href="https://andrewdavidwong.com/adw.vcf">vCard</a> |
+      <a title="Privacy Policy" href="https://andrewdavidwong.com/privacy/">Privacy</a> |
+      <a title="Terms of Use" href="https://andrewdavidwong.com/terms/">Terms</a> |
       <a title="Sitemap" href="https://andrewdavidwong.com/sitemap.xml">Sitemap</a>
     </div>
   </div>
 </body>
 </html>
+
